@@ -1,0 +1,17 @@
+# coding=utf-8
+from selenium import webdriver
+from time import sleep
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+driver = webdriver.Firefox(executable_path='./../drivers/geckodriver')
+driver.get("https://192.168.0.245:9444/s1gcb/logon/loginSSO")
+loginID = WebDriverWait(driver, 30, 1).until(EC.presence_of_element_located((By.NAME, "ssoUserid")))
+loginID.send_keys("SG2BFE1S04")
+driver.find_element_by_name("ssoCompanyID").send_keys("SG2BFE1")
+driver.find_element_by_name("submit_sbuserLogin").click()
+sleep(2)
+driver.find_element_by_id("previewButton_Link").click()
+sleep(10)
+driver.close()
