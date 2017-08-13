@@ -197,3 +197,1078 @@
 1502274987920	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
 1502274992095	Marionette	INFO	Listening on port 49301
 1502274993165	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502614479579	geckodriver	INFO	geckodriver 0.18.0
+1502614479586	geckodriver	INFO	Listening on 127.0.0.1:50190
+1502614479703	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502614482697	Marionette	INFO	Listening on port 50194
+1502614482817	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502614483382	Marionette	DEBUG	loaded listener.js
+1502614483428	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 16:54:43.498 plugin-container[19756:709143] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 16:54:43.499 plugin-container[19756:709143] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502614483783	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502614483783	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502614483957	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502614483961	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 16:54:44.026 plugin-container[19756:709143] Warning: did not get back bottom left metric
+2017-08-13 16:54:44.026 plugin-container[19756:709143] Warning: did not get back top right metric
+2017-08-13 16:54:44.052 plugin-container[19756:709143] Warning: did not get back bottom left metric
+2017-08-13 16:54:44.052 plugin-container[19756:709143] Warning: did not get back top right metric
+1502614484321	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 16:54:44.345 plugin-container[19756:709143] Warning: did not get back bottom left metric
+2017-08-13 16:54:44.345 plugin-container[19756:709143] Warning: did not get back top right metric
+2017-08-13 16:54:44.346 plugin-container[19756:709143] Warning: did not get back bottom left metric
+2017-08-13 16:54:44.346 plugin-container[19756:709143] Warning: did not get back top right metric
+1502614484518	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502614484518	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502614484530	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=ZtIQyLJY4oXfRmUq4TI9-qA9LMVcwymGDe2OKW8-"
+1502614484726	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=ZtIQyLJY4oXfRmUq4TI9-qA9LMVcwymGDe2OKW8-"
+1502614484809	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=ZtIQyLJY4oXfRmUq4TI9-qA9LMVcwymGDe2OKW8-"
+1502614488273	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=ZtIQyLJY4oXfRmUq4TI9-qA9LMVcwymGDe2OKW8-"
+1502614488274	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=ZtIQyLJY4oXfRmUq4TI9-qA9LMVcwymGDe2OKW8-"
+1502614490260	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=7C71-J18N-9DLD-3UEB-ZSAA-QUZR-XWBC-4H8Z"
+1502614491183	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=7C71-J18N-9DLD-3UEB-ZSAA-QUZR-XWBC-4H8Z"
+1502614503703	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502614534025	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502614534278	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502614534538	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502615031149	geckodriver	INFO	geckodriver 0.18.0
+1502615031155	geckodriver	INFO	Listening on 127.0.0.1:50666
+1502615031284	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502615034486	Marionette	INFO	Listening on port 50670
+1502615034599	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502615034919	Marionette	DEBUG	loaded listener.js
+1502615034976	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:03:55.027 plugin-container[19941:714604] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:03:55.030 plugin-container[19941:714604] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502615035099	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502615035100	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502615035348	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:03:55.408 plugin-container[19941:714604] Warning: did not get back bottom left metric
+2017-08-13 17:03:55.408 plugin-container[19941:714604] Warning: did not get back top right metric
+2017-08-13 17:03:55.423 plugin-container[19941:714604] Warning: did not get back bottom left metric
+2017-08-13 17:03:55.423 plugin-container[19941:714604] Warning: did not get back top right metric
+1502615035439	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:03:55.619 plugin-container[19941:714604] Warning: did not get back bottom left metric
+2017-08-13 17:03:55.619 plugin-container[19941:714604] Warning: did not get back top right metric
+2017-08-13 17:03:55.619 plugin-container[19941:714604] Warning: did not get back bottom left metric
+2017-08-13 17:03:55.619 plugin-container[19941:714604] Warning: did not get back top right metric
+1502615035825	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:03:55.833 plugin-container[19941:714604] Warning: did not get back bottom left metric
+2017-08-13 17:03:55.833 plugin-container[19941:714604] Warning: did not get back top right metric
+2017-08-13 17:03:55.834 plugin-container[19941:714604] Warning: did not get back bottom left metric
+2017-08-13 17:03:55.834 plugin-container[19941:714604] Warning: did not get back top right metric
+1502615035967	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502615035967	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502615035983	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=h50AtGJU_tRD7zO-EeE1qKtX_h0buNjxt84ctdUD"
+1502615036268	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=h50AtGJU_tRD7zO-EeE1qKtX_h0buNjxt84ctdUD"
+1502615036408	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=h50AtGJU_tRD7zO-EeE1qKtX_h0buNjxt84ctdUD"
+1502615036613	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=h50AtGJU_tRD7zO-EeE1qKtX_h0buNjxt84ctdUD"
+1502615036614	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=h50AtGJU_tRD7zO-EeE1qKtX_h0buNjxt84ctdUD"
+1502615038691	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=XEBT-8PVG-98DK-WJW2-8AZ1-ILCR-56NW-B4I0"
+1502615039521	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=XEBT-8PVG-98DK-WJW2-8AZ1-ILCR-56NW-B4I0"
+1502615051908	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502615082438	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502615082728	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502615083007	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502615091283	Marionette	INFO	Ceased listening
+1502615768379	geckodriver	INFO	geckodriver 0.18.0
+1502615768388	geckodriver	INFO	Listening on 127.0.0.1:51533
+1502615769470	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502615772035	Marionette	INFO	Listening on port 51543
+1502615772107	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502615772465	Marionette	DEBUG	loaded listener.js
+1502615772541	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:16:12.608 plugin-container[20208:721288] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:16:12.612 plugin-container[20208:721288] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502615772698	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502615772699	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+2017-08-13 17:16:13.101 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:13.101 plugin-container[20208:721288] Warning: did not get back top right metric
+2017-08-13 17:16:13.118 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:13.118 plugin-container[20208:721288] Warning: did not get back top right metric
+1502615773122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502615773128	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:16:13.150 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:13.150 plugin-container[20208:721288] Warning: did not get back top right metric
+2017-08-13 17:16:13.153 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:13.154 plugin-container[20208:721288] Warning: did not get back top right metric
+2017-08-13 17:16:13.855 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:13.855 plugin-container[20208:721288] Warning: did not get back top right metric
+2017-08-13 17:16:13.856 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:13.856 plugin-container[20208:721288] Warning: did not get back top right metric
+1502615774136	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:16:14.146 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:14.146 plugin-container[20208:721288] Warning: did not get back top right metric
+2017-08-13 17:16:14.147 plugin-container[20208:721288] Warning: did not get back bottom left metric
+2017-08-13 17:16:14.147 plugin-container[20208:721288] Warning: did not get back top right metric
+1502615774256	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502615774256	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502615774271	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=Z2gCepIKJeMv3Llnf0NfrHKTRxfv7JBZMRe4hT_v"
+1502615774646	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=Z2gCepIKJeMv3Llnf0NfrHKTRxfv7JBZMRe4hT_v"
+1502615774745	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=Z2gCepIKJeMv3Llnf0NfrHKTRxfv7JBZMRe4hT_v"
+1502615774958	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=Z2gCepIKJeMv3Llnf0NfrHKTRxfv7JBZMRe4hT_v"
+1502615774959	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=Z2gCepIKJeMv3Llnf0NfrHKTRxfv7JBZMRe4hT_v"
+1502615776795	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=CQQU-KVXF-1QFS-9SBS-HFBE-KVBW-ZRK7-9TQU"
+1502615777650	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=CQQU-KVXF-1QFS-9SBS-HFBE-KVBW-ZRK7-9TQU"
+1502615779656	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502615810015	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502615810330	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617133489	geckodriver	INFO	geckodriver 0.18.0
+1502617133498	geckodriver	INFO	Listening on 127.0.0.1:56374
+1502617134610	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502617137467	Marionette	INFO	Listening on port 56388
+1502617137579	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502617137871	Marionette	DEBUG	loaded listener.js
+1502617137974	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:38:58.015 plugin-container[20749:733681] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:38:58.016 plugin-container[20749:733681] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502617138134	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502617138134	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+2017-08-13 17:38:58.375 plugin-container[20749:733681] Warning: did not get back bottom left metric
+2017-08-13 17:38:58.375 plugin-container[20749:733681] Warning: did not get back top right metric
+2017-08-13 17:38:58.389 plugin-container[20749:733681] Warning: did not get back bottom left metric
+2017-08-13 17:38:58.389 plugin-container[20749:733681] Warning: did not get back top right metric
+1502617138393	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617138406	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:38:58.432 plugin-container[20749:733681] Warning: did not get back bottom left metric
+2017-08-13 17:38:58.433 plugin-container[20749:733681] Warning: did not get back top right metric
+2017-08-13 17:38:58.434 plugin-container[20749:733681] Warning: did not get back bottom left metric
+2017-08-13 17:38:58.434 plugin-container[20749:733681] Warning: did not get back top right metric
+1502617138848	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:38:58.855 plugin-container[20749:733681] Warning: did not get back bottom left metric
+2017-08-13 17:38:58.856 plugin-container[20749:733681] Warning: did not get back top right metric
+2017-08-13 17:38:58.856 plugin-container[20749:733681] Warning: did not get back bottom left metric
+2017-08-13 17:38:58.856 plugin-container[20749:733681] Warning: did not get back top right metric
+1502617139006	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617139006	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617139016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oO8_qKd-TNbRYXvGCMZglFy2Rxya0ErAfzGSi1hH"
+1502617139237	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oO8_qKd-TNbRYXvGCMZglFy2Rxya0ErAfzGSi1hH"
+1502617139341	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oO8_qKd-TNbRYXvGCMZglFy2Rxya0ErAfzGSi1hH"
+1502617139597	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oO8_qKd-TNbRYXvGCMZglFy2Rxya0ErAfzGSi1hH"
+1502617139598	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oO8_qKd-TNbRYXvGCMZglFy2Rxya0ErAfzGSi1hH"
+1502617141244	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=0ZEH-L8UM-EKG8-UIF9-50TL-0ZX6-EYOI-1060"
+1502617142194	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=0ZEH-L8UM-EKG8-UIF9-50TL-0ZX6-EYOI-1060"
+1502617142565	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617152276	Marionette	INFO	Ceased listening
+1502617189112	geckodriver	INFO	geckodriver 0.18.0
+1502617189121	geckodriver	INFO	Listening on 127.0.0.1:56683
+1502617189216	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502617191535	Marionette	INFO	Listening on port 56687
+1502617191655	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502617191889	Marionette	DEBUG	loaded listener.js
+1502617191926	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:39:52.000 plugin-container[20778:734440] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:39:52.002 plugin-container[20778:734440] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502617192039	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502617192040	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502617192249	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617192253	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:39:52.325 plugin-container[20778:734440] Warning: did not get back bottom left metric
+2017-08-13 17:39:52.325 plugin-container[20778:734440] Warning: did not get back top right metric
+2017-08-13 17:39:52.338 plugin-container[20778:734440] Warning: did not get back bottom left metric
+2017-08-13 17:39:52.338 plugin-container[20778:734440] Warning: did not get back top right metric
+1502617192635	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:39:52.641 plugin-container[20778:734440] Warning: did not get back bottom left metric
+2017-08-13 17:39:52.641 plugin-container[20778:734440] Warning: did not get back top right metric
+2017-08-13 17:39:52.642 plugin-container[20778:734440] Warning: did not get back bottom left metric
+2017-08-13 17:39:52.642 plugin-container[20778:734440] Warning: did not get back top right metric
+1502617192781	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617192782	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617192793	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=pPnMwEWrzh2YJNiYXnkSGP6wBsY6Zkgv4Hkfhf9J"
+1502617193020	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=pPnMwEWrzh2YJNiYXnkSGP6wBsY6Zkgv4Hkfhf9J"
+1502617193192	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=pPnMwEWrzh2YJNiYXnkSGP6wBsY6Zkgv4Hkfhf9J"
+1502617193432	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=pPnMwEWrzh2YJNiYXnkSGP6wBsY6Zkgv4Hkfhf9J"
+1502617193432	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=pPnMwEWrzh2YJNiYXnkSGP6wBsY6Zkgv4Hkfhf9J"
+1502617195600	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=5HUW-HCQO-WHTH-ERT2-I7X3-8C21-E3ZP-PP1I"
+1502617196133	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=5HUW-HCQO-WHTH-ERT2-I7X3-8C21-E3ZP-PP1I"
+1502617201688	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617222993	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617223307	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617223738	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617223812	Marionette	DEBUG	loaded listener.js
+1502617223988	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1502617270128	geckodriver	INFO	geckodriver 0.18.0
+1502617270133	geckodriver	INFO	Listening on 127.0.0.1:57107
+1502617270207	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502617271352	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502617273150	Marionette	INFO	Listening on port 57111
+1502617273393	Marionette	WARN	TLS certificate errors will be ignored for this session
+2017-08-13 17:41:13.878 plugin-container[20809:735465] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:41:13.879 plugin-container[20809:735465] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502617273935	Marionette	DEBUG	loaded listener.js
+1502617273975	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:41:14.055 plugin-container[20808:735436] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:41:14.056 plugin-container[20808:735436] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502617274164	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502617274164	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502617274394	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617274399	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:41:14.448 plugin-container[20808:735436] Warning: did not get back bottom left metric
+2017-08-13 17:41:14.448 plugin-container[20808:735436] Warning: did not get back top right metric
+2017-08-13 17:41:14.462 plugin-container[20808:735436] Warning: did not get back bottom left metric
+2017-08-13 17:41:14.462 plugin-container[20808:735436] Warning: did not get back top right metric
+1502617274739	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:41:14.747 plugin-container[20808:735436] Warning: did not get back bottom left metric
+2017-08-13 17:41:14.747 plugin-container[20808:735436] Warning: did not get back top right metric
+2017-08-13 17:41:14.748 plugin-container[20808:735436] Warning: did not get back bottom left metric
+2017-08-13 17:41:14.748 plugin-container[20808:735436] Warning: did not get back top right metric
+1502617274915	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617274916	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617274933	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=iWld7gLi0URji1lthDoiKland5nP8_1-RPhYr2xl"
+1502617275134	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=iWld7gLi0URji1lthDoiKland5nP8_1-RPhYr2xl"
+1502617275260	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=iWld7gLi0URji1lthDoiKland5nP8_1-RPhYr2xl"
+1502617275478	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=iWld7gLi0URji1lthDoiKland5nP8_1-RPhYr2xl"
+1502617275478	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=iWld7gLi0URji1lthDoiKland5nP8_1-RPhYr2xl"
+1502617277080	Marionette	INFO	Ceased listening
+1502617277529	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=DKUN-W175-UAX1-41FX-FFN6-0YX1-7FCY-CWJI"
+1502617278034	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=DKUN-W175-UAX1-41FX-FFN6-0YX1-7FCY-CWJI"
+1502617283417	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617286261	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617286563	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617286983	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617287053	Marionette	DEBUG	loaded listener.js
+1502617287236	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1502617336350	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1502617336540	Marionette	INFO	Ceased listening
+1502617362045	geckodriver	INFO	geckodriver 0.18.0
+1502617362051	geckodriver	INFO	Listening on 127.0.0.1:57569
+1502617363125	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502617365796	Marionette	INFO	Listening on port 57579
+1502617365994	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502617366343	Marionette	DEBUG	loaded listener.js
+1502617366458	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:42:46.503 plugin-container[20845:736476] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:42:46.505 plugin-container[20845:736476] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502617366602	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502617366602	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+2017-08-13 17:42:46.936 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:46.937 plugin-container[20845:736476] Warning: did not get back top right metric
+2017-08-13 17:42:46.954 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:46.955 plugin-container[20845:736476] Warning: did not get back top right metric
+1502617366959	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:42:46.985 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:46.985 plugin-container[20845:736476] Warning: did not get back top right metric
+2017-08-13 17:42:46.987 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:46.987 plugin-container[20845:736476] Warning: did not get back top right metric
+1502617366993	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:42:47.038 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:47.038 plugin-container[20845:736476] Warning: did not get back top right metric
+2017-08-13 17:42:47.039 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:47.040 plugin-container[20845:736476] Warning: did not get back top right metric
+1502617367478	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:42:47.488 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:47.488 plugin-container[20845:736476] Warning: did not get back top right metric
+2017-08-13 17:42:47.488 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:42:47.488 plugin-container[20845:736476] Warning: did not get back top right metric
+1502617367621	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617367622	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617367635	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=QOwgJ0D5-Dny6GtuvEVApvYvXPbKbVwD39X9XapB"
+1502617368125	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=QOwgJ0D5-Dny6GtuvEVApvYvXPbKbVwD39X9XapB"
+1502617368238	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=QOwgJ0D5-Dny6GtuvEVApvYvXPbKbVwD39X9XapB"
+1502617368637	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=QOwgJ0D5-Dny6GtuvEVApvYvXPbKbVwD39X9XapB"
+1502617368638	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=QOwgJ0D5-Dny6GtuvEVApvYvXPbKbVwD39X9XapB"
+1502617372771	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=7AMA-07O0-04RK-Y5XQ-ONFJ-JNDI-FEAJ-SSDC"
+1502617373307	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=7AMA-07O0-04RK-Y5XQ-ONFJ-JNDI-FEAJ-SSDC"
+1502617378789	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617398532	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617398834	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617399258	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617399328	Marionette	DEBUG	loaded listener.js
+1502617399507	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+2017-08-13 17:43:22.291 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:43:22.291 plugin-container[20845:736476] Warning: did not get back top right metric
+2017-08-13 17:43:22.361 plugin-container[20845:736476] Warning: did not get back bottom left metric
+2017-08-13 17:43:22.361 plugin-container[20845:736476] Warning: did not get back top right metric
+1502617445560	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502617505600	geckodriver	INFO	geckodriver 0.18.0
+1502617505607	geckodriver	INFO	Listening on 127.0.0.1:58313
+1502617506718	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502617509427	Marionette	INFO	Listening on port 58324
+1502617509553	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502617509850	Marionette	DEBUG	loaded listener.js
+1502617509942	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:45:09.979 plugin-container[20909:738112] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:45:09.980 plugin-container[20909:738112] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502617510036	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502617510036	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502617510274	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617510280	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:45:10.343 plugin-container[20909:738112] Warning: did not get back bottom left metric
+2017-08-13 17:45:10.344 plugin-container[20909:738112] Warning: did not get back top right metric
+2017-08-13 17:45:10.362 plugin-container[20909:738112] Warning: did not get back bottom left metric
+2017-08-13 17:45:10.362 plugin-container[20909:738112] Warning: did not get back top right metric
+1502617510739	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:45:10.747 plugin-container[20909:738112] Warning: did not get back bottom left metric
+2017-08-13 17:45:10.747 plugin-container[20909:738112] Warning: did not get back top right metric
+2017-08-13 17:45:10.748 plugin-container[20909:738112] Warning: did not get back bottom left metric
+2017-08-13 17:45:10.748 plugin-container[20909:738112] Warning: did not get back top right metric
+1502617510906	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617510906	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617510918	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=29BdNdvluOmvvnU3--oep4JcO6sAQfIEEnl8Jgnu"
+1502617511133	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=29BdNdvluOmvvnU3--oep4JcO6sAQfIEEnl8Jgnu"
+1502617511265	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=29BdNdvluOmvvnU3--oep4JcO6sAQfIEEnl8Jgnu"
+1502617511474	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=29BdNdvluOmvvnU3--oep4JcO6sAQfIEEnl8Jgnu"
+1502617511474	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=29BdNdvluOmvvnU3--oep4JcO6sAQfIEEnl8Jgnu"
+1502617513035	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=LRTS-2I70-CNFQ-8C7C-44YK-HERW-28K2-KUA7"
+1502617513871	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=LRTS-2I70-CNFQ-8C7C-44YK-HERW-28K2-KUA7"
+1502617519251	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617522669	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617522973	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617523412	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617523507	Marionette	DEBUG	loaded listener.js
+1502617523710	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1502617564978	Marionette	INFO	Ceased listening
+1502617567825	Marionette	INFO	Ceased listening
+1502617723595	geckodriver	INFO	geckodriver 0.18.0
+1502617723603	geckodriver	INFO	Listening on 127.0.0.1:59348
+1502617724717	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502617727285	Marionette	INFO	Listening on port 59358
+1502617727627	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502617728010	Marionette	DEBUG	loaded listener.js
+1502617728135	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:48:48.173 plugin-container[20979:740104] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:48:48.174 plugin-container[20979:740104] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502617728430	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502617728431	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502617728625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617728630	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:48:48.692 plugin-container[20979:740104] Warning: did not get back bottom left metric
+2017-08-13 17:48:48.692 plugin-container[20979:740104] Warning: did not get back top right metric
+2017-08-13 17:48:48.709 plugin-container[20979:740104] Warning: did not get back bottom left metric
+2017-08-13 17:48:48.709 plugin-container[20979:740104] Warning: did not get back top right metric
+1502617729155	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:48:49.162 plugin-container[20979:740104] Warning: did not get back bottom left metric
+2017-08-13 17:48:49.163 plugin-container[20979:740104] Warning: did not get back top right metric
+2017-08-13 17:48:49.163 plugin-container[20979:740104] Warning: did not get back bottom left metric
+2017-08-13 17:48:49.163 plugin-container[20979:740104] Warning: did not get back top right metric
+1502617729404	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617729404	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502617729419	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=qT2GhNxQVBjl-eH7GJsp7ddNH3uYmlLaJ-uXonE2"
+1502617729643	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=qT2GhNxQVBjl-eH7GJsp7ddNH3uYmlLaJ-uXonE2"
+1502617729739	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=qT2GhNxQVBjl-eH7GJsp7ddNH3uYmlLaJ-uXonE2"
+1502617730354	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=qT2GhNxQVBjl-eH7GJsp7ddNH3uYmlLaJ-uXonE2"
+1502617730355	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=qT2GhNxQVBjl-eH7GJsp7ddNH3uYmlLaJ-uXonE2"
+1502617732030	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=0VOP-L9UQ-T842-BPY8-IPJ3-Y428-V3TS-624F"
+1502617732679	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=0VOP-L9UQ-T842-BPY8-IPJ3-Y428-V3TS-624F"
+1502617738074	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617742512	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617742830	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617743266	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502617748392	Marionette	DEBUG	loaded listener.js
+1502617748546	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+2017-08-13 17:49:13.771 plugin-container[20979:740104] Warning: did not get back bottom left metric
+2017-08-13 17:49:13.771 plugin-container[20979:740104] Warning: did not get back top right metric
+1502617806977	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502617874861	Marionette	INFO	Ceased listening
+1502618022925	geckodriver	INFO	geckodriver 0.18.0
+1502618022933	geckodriver	INFO	Listening on 127.0.0.1:60799
+1502618024094	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502618026876	Marionette	INFO	Listening on port 60809
+1502618027029	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502618027301	Marionette	DEBUG	loaded listener.js
+1502618027394	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:53:47.430 plugin-container[21086:743004] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:53:47.431 plugin-container[21086:743004] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502618027488	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502618027489	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502618027805	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618027808	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:53:47.868 plugin-container[21086:743004] Warning: did not get back bottom left metric
+2017-08-13 17:53:47.869 plugin-container[21086:743004] Warning: did not get back top right metric
+2017-08-13 17:53:47.884 plugin-container[21086:743004] Warning: did not get back bottom left metric
+2017-08-13 17:53:47.884 plugin-container[21086:743004] Warning: did not get back top right metric
+1502618028253	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:53:48.266 plugin-container[21086:743004] Warning: did not get back bottom left metric
+2017-08-13 17:53:48.266 plugin-container[21086:743004] Warning: did not get back top right metric
+2017-08-13 17:53:48.266 plugin-container[21086:743004] Warning: did not get back bottom left metric
+2017-08-13 17:53:48.266 plugin-container[21086:743004] Warning: did not get back top right metric
+1502618028367	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618028368	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618028378	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=jZdEKy0xoNYxiszAHMkgeLz__T38RBuY437V25G8"
+1502618028593	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=jZdEKy0xoNYxiszAHMkgeLz__T38RBuY437V25G8"
+1502618028740	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=jZdEKy0xoNYxiszAHMkgeLz__T38RBuY437V25G8"
+1502618031587	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=jZdEKy0xoNYxiszAHMkgeLz__T38RBuY437V25G8"
+1502618031588	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=jZdEKy0xoNYxiszAHMkgeLz__T38RBuY437V25G8"
+1502618033592	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=MKEH-BREZ-N1XI-S2SW-ZN5M-RDPH-QW8U-86GW"
+1502618034447	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=MKEH-BREZ-N1XI-S2SW-ZN5M-RDPH-QW8U-86GW"
+1502618039898	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618061673	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618061975	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618062387	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618106654	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502618173574	Marionette	INFO	Ceased listening
+1502618382696	geckodriver	INFO	geckodriver 0.18.0
+1502618382704	geckodriver	INFO	Listening on 127.0.0.1:62340
+1502618383823	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502618386905	Marionette	INFO	Listening on port 62350
+1502618387023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502618387342	Marionette	DEBUG	loaded listener.js
+1502618387437	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 17:59:47.483 plugin-container[21193:746115] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 17:59:47.484 plugin-container[21193:746115] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9703, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502618387546	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502618387546	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+2017-08-13 17:59:47.778 plugin-container[21193:746115] Warning: did not get back bottom left metric
+2017-08-13 17:59:47.778 plugin-container[21193:746115] Warning: did not get back top right metric
+2017-08-13 17:59:47.792 plugin-container[21193:746115] Warning: did not get back bottom left metric
+2017-08-13 17:59:47.792 plugin-container[21193:746115] Warning: did not get back top right metric
+1502618387796	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618387801	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:59:47.818 plugin-container[21193:746115] Warning: did not get back bottom left metric
+2017-08-13 17:59:47.818 plugin-container[21193:746115] Warning: did not get back top right metric
+2017-08-13 17:59:47.819 plugin-container[21193:746115] Warning: did not get back bottom left metric
+2017-08-13 17:59:47.819 plugin-container[21193:746115] Warning: did not get back top right metric
+1502618388160	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 17:59:48.169 plugin-container[21193:746115] Warning: did not get back bottom left metric
+2017-08-13 17:59:48.169 plugin-container[21193:746115] Warning: did not get back top right metric
+2017-08-13 17:59:48.170 plugin-container[21193:746115] Warning: did not get back bottom left metric
+2017-08-13 17:59:48.170 plugin-container[21193:746115] Warning: did not get back top right metric
+1502618388281	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618388281	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618388300	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oIIyjgYFstAXAPx5JtkKRnbDiaLjYLqaJxiQAmha"
+1502618388538	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oIIyjgYFstAXAPx5JtkKRnbDiaLjYLqaJxiQAmha"
+1502618388680	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oIIyjgYFstAXAPx5JtkKRnbDiaLjYLqaJxiQAmha"
+1502618388881	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oIIyjgYFstAXAPx5JtkKRnbDiaLjYLqaJxiQAmha"
+1502618388881	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=oIIyjgYFstAXAPx5JtkKRnbDiaLjYLqaJxiQAmha"
+1502618390573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=ME21-QO45-VHKK-AVC9-CWS0-QJ80-GOP4-8ADQ"
+1502618391084	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=ME21-QO45-VHKK-AVC9-CWS0-QJ80-GOP4-8ADQ"
+1502618396616	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618416500	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618416808	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618417249	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=ME21-QO45-VHKK-AVC9-CWS0-QJ80-GOP4-8ADQ, line 1: ReferenceError: checkSubmitCBI is not defined
+1502618469607	geckodriver	INFO	geckodriver 0.18.0
+1502618469612	geckodriver	INFO	Listening on 127.0.0.1:62779
+1502618470680	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502618473003	Marionette	INFO	Listening on port 62789
+1502618473113	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502618473385	Marionette	DEBUG	loaded listener.js
+1502618473430	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 18:01:13.553 plugin-container[21230:747477] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 18:01:13.555 plugin-container[21230:747477] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502618473631	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502618473631	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502618473850	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618473854	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:01:13.900 plugin-container[21230:747477] Warning: did not get back bottom left metric
+2017-08-13 18:01:13.900 plugin-container[21230:747477] Warning: did not get back top right metric
+2017-08-13 18:01:13.916 plugin-container[21230:747477] Warning: did not get back bottom left metric
+2017-08-13 18:01:13.916 plugin-container[21230:747477] Warning: did not get back top right metric
+1502618474277	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:01:14.290 plugin-container[21230:747477] Warning: did not get back bottom left metric
+2017-08-13 18:01:14.290 plugin-container[21230:747477] Warning: did not get back top right metric
+2017-08-13 18:01:14.291 plugin-container[21230:747477] Warning: did not get back bottom left metric
+2017-08-13 18:01:14.291 plugin-container[21230:747477] Warning: did not get back top right metric
+1502618474414	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618474414	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618474425	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EpFU5SP7TWfQjmwq3N2LHhdApy5-FItC_fUCTix7"
+1502618474623	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EpFU5SP7TWfQjmwq3N2LHhdApy5-FItC_fUCTix7"
+1502618474847	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EpFU5SP7TWfQjmwq3N2LHhdApy5-FItC_fUCTix7"
+1502618475053	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EpFU5SP7TWfQjmwq3N2LHhdApy5-FItC_fUCTix7"
+1502618475054	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EpFU5SP7TWfQjmwq3N2LHhdApy5-FItC_fUCTix7"
+1502618476765	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=85TI-0BNZ-TOLG-5HH3-DMJ9-GD87-QF7C-WF8W"
+1502618477573	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=85TI-0BNZ-TOLG-5HH3-DMJ9-GD87-QF7C-WF8W"
+1502618482947	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618485760	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618487067	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618487539	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=85TI-0BNZ-TOLG-5HH3-DMJ9-GD87-QF7C-WF8W, line 1: ReferenceError: checkSubmitCBI is not defined
+1502618646036	geckodriver	INFO	geckodriver 0.18.0
+1502618646041	geckodriver	INFO	Listening on 127.0.0.1:63333
+1502618647104	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502618649692	Marionette	INFO	Listening on port 63346
+1502618649819	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502618650136	Marionette	DEBUG	loaded listener.js
+1502618650254	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 18:04:10.289 plugin-container[21286:749280] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 18:04:10.290 plugin-container[21286:749280] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502618650364	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502618650364	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502618650556	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618650560	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:04:10.628 plugin-container[21286:749280] Warning: did not get back bottom left metric
+2017-08-13 18:04:10.628 plugin-container[21286:749280] Warning: did not get back top right metric
+2017-08-13 18:04:10.642 plugin-container[21286:749280] Warning: did not get back bottom left metric
+2017-08-13 18:04:10.642 plugin-container[21286:749280] Warning: did not get back top right metric
+1502618651053	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:04:11.067 plugin-container[21286:749280] Warning: did not get back bottom left metric
+2017-08-13 18:04:11.067 plugin-container[21286:749280] Warning: did not get back top right metric
+2017-08-13 18:04:11.067 plugin-container[21286:749280] Warning: did not get back bottom left metric
+2017-08-13 18:04:11.067 plugin-container[21286:749280] Warning: did not get back top right metric
+1502618651211	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618651211	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618651222	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=t5m-BmJQTxW5gMctWtQifahkN_LQX8UwqYGaxNsS"
+1502618651424	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=t5m-BmJQTxW5gMctWtQifahkN_LQX8UwqYGaxNsS"
+1502618651564	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=t5m-BmJQTxW5gMctWtQifahkN_LQX8UwqYGaxNsS"
+1502618651777	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=t5m-BmJQTxW5gMctWtQifahkN_LQX8UwqYGaxNsS"
+1502618651777	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=t5m-BmJQTxW5gMctWtQifahkN_LQX8UwqYGaxNsS"
+1502618653491	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=MSSZ-SHSY-6H1U-4YQA-4M2Z-G33C-ZE8K-314X"
+1502618653966	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=MSSZ-SHSY-6H1U-4YQA-4M2Z-G33C-ZE8K-314X"
+1502618659488	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618679253	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618680564	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618680988	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618686376	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618850153	geckodriver	INFO	geckodriver 0.18.0
+1502618850161	geckodriver	INFO	Listening on 127.0.0.1:63969
+1502618851249	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502618854094	Marionette	INFO	Listening on port 63979
+1502618854288	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502618854533	Marionette	DEBUG	loaded listener.js
+1502618854620	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 18:07:34.662 plugin-container[21340:751133] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 18:07:34.663 plugin-container[21340:751133] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502618854800	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502618854801	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502618855057	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:07:35.125 plugin-container[21340:751133] Warning: did not get back bottom left metric
+2017-08-13 18:07:35.125 plugin-container[21340:751133] Warning: did not get back top right metric
+2017-08-13 18:07:35.137 plugin-container[21340:751133] Warning: did not get back bottom left metric
+2017-08-13 18:07:35.137 plugin-container[21340:751133] Warning: did not get back top right metric
+2017-08-13 18:07:35.161 plugin-container[21340:751133] Warning: did not get back bottom left metric
+2017-08-13 18:07:35.161 plugin-container[21340:751133] Warning: did not get back top right metric
+2017-08-13 18:07:35.162 plugin-container[21340:751133] Warning: did not get back bottom left metric
+2017-08-13 18:07:35.162 plugin-container[21340:751133] Warning: did not get back top right metric
+1502618855166	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618855459	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:07:35.466 plugin-container[21340:751133] Warning: did not get back bottom left metric
+2017-08-13 18:07:35.466 plugin-container[21340:751133] Warning: did not get back top right metric
+2017-08-13 18:07:35.466 plugin-container[21340:751133] Warning: did not get back bottom left metric
+2017-08-13 18:07:35.466 plugin-container[21340:751133] Warning: did not get back top right metric
+1502618855657	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618855657	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502618855668	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=aAEYYK-GAq8PyAeO_Fi36smM28gniExk02cXgFu7"
+1502618856023	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=aAEYYK-GAq8PyAeO_Fi36smM28gniExk02cXgFu7"
+1502618856118	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=aAEYYK-GAq8PyAeO_Fi36smM28gniExk02cXgFu7"
+1502618856848	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=aAEYYK-GAq8PyAeO_Fi36smM28gniExk02cXgFu7"
+1502618856848	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=aAEYYK-GAq8PyAeO_Fi36smM28gniExk02cXgFu7"
+1502618858889	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=LMI6-Q3IW-S67E-EAV1-JOKW-8P9F-BT0Y-1NK5"
+1502618859407	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=LMI6-Q3IW-S67E-EAV1-JOKW-8P9F-BT0Y-1NK5"
+1502618864908	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618886712	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618888010	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618888402	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502618893480	Marionette	DEBUG	loaded listener.js
+1502618893653	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+2017-08-13 18:08:20.538 plugin-container[21340:751133] Warning: did not get back bottom left metric
+2017-08-13 18:08:20.538 plugin-container[21340:751133] Warning: did not get back top right metric
+1502618928557	Marionette	DEBUG	loaded listener.js
+1502619108645	Marionette	INFO	Ceased listening
+1502619122975	geckodriver	INFO	geckodriver 0.18.0
+1502619122989	geckodriver	INFO	Listening on 127.0.0.1:65371
+1502619124063	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502619126309	Marionette	INFO	Listening on port 65381
+1502619126423	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502619126695	Marionette	DEBUG	loaded listener.js
+1502619126767	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 18:12:06.865 plugin-container[21439:753712] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 18:12:06.867 plugin-container[21439:753712] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502619126901	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502619126902	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502619127109	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502619127114	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:12:07.161 plugin-container[21439:753712] Warning: did not get back bottom left metric
+2017-08-13 18:12:07.161 plugin-container[21439:753712] Warning: did not get back top right metric
+2017-08-13 18:12:07.175 plugin-container[21439:753712] Warning: did not get back bottom left metric
+2017-08-13 18:12:07.175 plugin-container[21439:753712] Warning: did not get back top right metric
+1502619127441	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:12:07.452 plugin-container[21439:753712] Warning: did not get back bottom left metric
+2017-08-13 18:12:07.452 plugin-container[21439:753712] Warning: did not get back top right metric
+2017-08-13 18:12:07.452 plugin-container[21439:753712] Warning: did not get back bottom left metric
+2017-08-13 18:12:07.453 plugin-container[21439:753712] Warning: did not get back top right metric
+1502619127570	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502619127570	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502619127581	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EsDwEDxwweswszb9LpbXCmZBGrTt8owr8KL8xOHJ"
+1502619127940	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EsDwEDxwweswszb9LpbXCmZBGrTt8owr8KL8xOHJ"
+1502619128130	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EsDwEDxwweswszb9LpbXCmZBGrTt8owr8KL8xOHJ"
+1502619130913	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EsDwEDxwweswszb9LpbXCmZBGrTt8owr8KL8xOHJ"
+1502619130913	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=EsDwEDxwweswszb9LpbXCmZBGrTt8owr8KL8xOHJ"
+1502619132554	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=K90J-DG6P-JX97-KZNY-35KW-KWOX-9WOZ-8HVR"
+1502619133345	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=K90J-DG6P-JX97-KZNY-35KW-KWOX-9WOZ-8HVR"
+1502619138790	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619141450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619142772	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619143185	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619148287	Marionette	DEBUG	loaded listener.js
+1502619148485	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1502619158626	Marionette	DEBUG	loaded listener.js
+1502619158793	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619206096	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502619306058	geckodriver	INFO	geckodriver 0.18.0
+1502619306065	geckodriver	INFO	Listening on 127.0.0.1:49740
+1502619307147	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502619309809	Marionette	INFO	Listening on port 49750
+1502619309931	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502619310212	Marionette	DEBUG	loaded listener.js
+1502619310253	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 18:15:10.327 plugin-container[21508:755702] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 18:15:10.328 plugin-container[21508:755702] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502619310377	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502619310378	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502619310594	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502619310598	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:15:10.672 plugin-container[21508:755702] Warning: did not get back bottom left metric
+2017-08-13 18:15:10.672 plugin-container[21508:755702] Warning: did not get back top right metric
+2017-08-13 18:15:10.694 plugin-container[21508:755702] Warning: did not get back bottom left metric
+2017-08-13 18:15:10.694 plugin-container[21508:755702] Warning: did not get back top right metric
+1502619311117	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:15:11.127 plugin-container[21508:755702] Warning: did not get back bottom left metric
+2017-08-13 18:15:11.128 plugin-container[21508:755702] Warning: did not get back top right metric
+2017-08-13 18:15:11.129 plugin-container[21508:755702] Warning: did not get back bottom left metric
+2017-08-13 18:15:11.129 plugin-container[21508:755702] Warning: did not get back top right metric
+1502619311197	Marionette	INFO	Ceased listening
+1502619311311	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502619311311	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502619311328	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=17rO8sKbSduoIOUw-Ld-0zPKutux9Ze4tnIUfJvn"
+1502619311736	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=17rO8sKbSduoIOUw-Ld-0zPKutux9Ze4tnIUfJvn"
+1502619311826	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=17rO8sKbSduoIOUw-Ld-0zPKutux9Ze4tnIUfJvn"
+1502619312028	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=17rO8sKbSduoIOUw-Ld-0zPKutux9Ze4tnIUfJvn"
+1502619312029	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=17rO8sKbSduoIOUw-Ld-0zPKutux9Ze4tnIUfJvn"
+1502619314133	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=UYP7-N00Y-GEO9-U6GR-8CSC-WPFG-YVM9-T0NV"
+1502619314848	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=UYP7-N00Y-GEO9-U6GR-8CSC-WPFG-YVM9-T0NV"
+1502619320354	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619341491	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619342793	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619343217	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502619389593	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1502619963304	Marionette	INFO	Ceased listening
+1502620399227	geckodriver	INFO	geckodriver 0.18.0
+1502620399234	geckodriver	INFO	Listening on 127.0.0.1:53506
+1502620400349	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502620403242	Marionette	INFO	Listening on port 53512
+1502620403376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502620403699	Marionette	DEBUG	loaded listener.js
+1502620403854	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 18:33:23.924 plugin-container[21801:763591] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 18:33:23.926 plugin-container[21801:763591] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502620404020	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502620404021	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502620404277	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502620404281	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:33:24.334 plugin-container[21801:763591] Warning: did not get back bottom left metric
+2017-08-13 18:33:24.334 plugin-container[21801:763591] Warning: did not get back top right metric
+2017-08-13 18:33:24.353 plugin-container[21801:763591] Warning: did not get back bottom left metric
+2017-08-13 18:33:24.353 plugin-container[21801:763591] Warning: did not get back top right metric
+1502620404720	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 18:33:24.728 plugin-container[21801:763591] Warning: did not get back bottom left metric
+2017-08-13 18:33:24.728 plugin-container[21801:763591] Warning: did not get back top right metric
+2017-08-13 18:33:24.729 plugin-container[21801:763591] Warning: did not get back bottom left metric
+2017-08-13 18:33:24.729 plugin-container[21801:763591] Warning: did not get back top right metric
+1502620404859	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502620404860	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502620404875	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=RxG517juMf7SnEbz3UkHYFvDlmNqMcs0e6TkKxIi"
+1502620405082	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=RxG517juMf7SnEbz3UkHYFvDlmNqMcs0e6TkKxIi"
+1502620405191	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=RxG517juMf7SnEbz3UkHYFvDlmNqMcs0e6TkKxIi"
+1502620405390	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=RxG517juMf7SnEbz3UkHYFvDlmNqMcs0e6TkKxIi"
+1502620405391	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=RxG517juMf7SnEbz3UkHYFvDlmNqMcs0e6TkKxIi"
+1502620406948	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=E17W-RNY9-CAE9-52I9-DUUC-LQX0-CND7-81W4"
+1502620407696	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=E17W-RNY9-CAE9-52I9-DUUC-LQX0-CND7-81W4"
+1502620413066	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502620415743	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502620417050	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502620417464	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1502631818918	geckodriver	INFO	geckodriver 0.18.0
+1502631818928	geckodriver	INFO	Listening on 127.0.0.1:54280
+1502631820006	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502631822988	Marionette	INFO	Listening on port 54286
+1502631823069	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502631823411	Marionette	DEBUG	loaded listener.js
+1502631823454	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 21:43:43.549 plugin-container[22224:781668] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 21:43:43.553 plugin-container[22224:781668] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502631823890	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502631823891	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502631824107	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502631824115	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:43:44.190 plugin-container[22224:781668] Warning: did not get back bottom left metric
+2017-08-13 21:43:44.191 plugin-container[22224:781668] Warning: did not get back top right metric
+2017-08-13 21:43:44.204 plugin-container[22224:781668] Warning: did not get back bottom left metric
+2017-08-13 21:43:44.205 plugin-container[22224:781668] Warning: did not get back top right metric
+1502631824585	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:43:44.596 plugin-container[22224:781668] Warning: did not get back bottom left metric
+2017-08-13 21:43:44.596 plugin-container[22224:781668] Warning: did not get back top right metric
+2017-08-13 21:43:44.597 plugin-container[22224:781668] Warning: did not get back bottom left metric
+2017-08-13 21:43:44.597 plugin-container[22224:781668] Warning: did not get back top right metric
+1502631824740	Marionette	INFO	Ceased listening
+1502631825369	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502631825370	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502631825394	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=i1s_kPh--xz7vEFfuXvLaJUUjEsk9H7-VhQsum3b"
+1502631825600	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=i1s_kPh--xz7vEFfuXvLaJUUjEsk9H7-VhQsum3b"
+1502631825698	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=i1s_kPh--xz7vEFfuXvLaJUUjEsk9H7-VhQsum3b"
+1502631829086	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=i1s_kPh--xz7vEFfuXvLaJUUjEsk9H7-VhQsum3b"
+1502631829086	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=i1s_kPh--xz7vEFfuXvLaJUUjEsk9H7-VhQsum3b"
+1502631830804	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=VNXT-H6CT-R81H-F91J-43QJ-2JL9-AJK1-OT24"
+1502631831569	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=VNXT-H6CT-R81H-F91J-43QJ-2JL9-AJK1-OT24"
+1502631836957	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631842396	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631843736	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631844161	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631958838	geckodriver	INFO	geckodriver 0.18.0
+1502631958846	geckodriver	INFO	Listening on 127.0.0.1:54526
+1502631959941	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502631962808	Marionette	INFO	Listening on port 54532
+1502631962924	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502631963193	Marionette	DEBUG	loaded listener.js
+1502631963236	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 21:46:03.354 plugin-container[22281:783544] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 21:46:03.359 plugin-container[22281:783544] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502631963383	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502631963384	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502631963652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:46:03.701 plugin-container[22281:783544] Warning: did not get back bottom left metric
+2017-08-13 21:46:03.701 plugin-container[22281:783544] Warning: did not get back top right metric
+2017-08-13 21:46:03.716 plugin-container[22281:783544] Warning: did not get back bottom left metric
+2017-08-13 21:46:03.716 plugin-container[22281:783544] Warning: did not get back top right metric
+1502631963721	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502631964083	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:46:04.090 plugin-container[22281:783544] Warning: did not get back bottom left metric
+2017-08-13 21:46:04.090 plugin-container[22281:783544] Warning: did not get back top right metric
+2017-08-13 21:46:04.090 plugin-container[22281:783544] Warning: did not get back bottom left metric
+2017-08-13 21:46:04.090 plugin-container[22281:783544] Warning: did not get back top right metric
+1502631964215	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502631964216	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502631964235	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=dRaYjV738ipu-IFCcQVj4_HoQ880UlaMRUTcsbHJ"
+1502631964439	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=dRaYjV738ipu-IFCcQVj4_HoQ880UlaMRUTcsbHJ"
+1502631964541	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=dRaYjV738ipu-IFCcQVj4_HoQ880UlaMRUTcsbHJ"
+1502631964727	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=dRaYjV738ipu-IFCcQVj4_HoQ880UlaMRUTcsbHJ"
+1502631964727	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=dRaYjV738ipu-IFCcQVj4_HoQ880UlaMRUTcsbHJ"
+1502631966680	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=8IOD-GGQL-C5N2-QEYO-VK7Z-0JIX-FL0A-5EUI"
+1502631967079	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=8IOD-GGQL-C5N2-QEYO-VK7Z-0JIX-FL0A-5EUI"
+1502631972476	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631975346	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631976654	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631977078	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502631982142	Marionette	DEBUG	loaded listener.js
+1502631982322	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+2017-08-13 21:46:25.829 plugin-container[22281:783544] Warning: did not get back bottom left metric
+2017-08-13 21:46:25.829 plugin-container[22281:783544] Warning: did not get back top right metric
+1502632030223	Marionette	INFO	Ceased listening
+1502632042596	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502632078732	Marionette	INFO	Ceased listening
+1502632467605	geckodriver	INFO	geckodriver 0.18.0
+1502632467613	geckodriver	INFO	Listening on 127.0.0.1:55739
+1502632468746	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502632471600	Marionette	INFO	Listening on port 55749
+1502632471716	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502632472029	Marionette	DEBUG	loaded listener.js
+1502632472138	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 21:54:32.187 plugin-container[22428:788055] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 21:54:32.202 plugin-container[22428:788055] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502632472243	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502632472244	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502632472505	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:54:32.579 plugin-container[22428:788055] Warning: did not get back bottom left metric
+2017-08-13 21:54:32.579 plugin-container[22428:788055] Warning: did not get back top right metric
+2017-08-13 21:54:32.593 plugin-container[22428:788055] Warning: did not get back bottom left metric
+2017-08-13 21:54:32.593 plugin-container[22428:788055] Warning: did not get back top right metric
+1502632472596	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502632473024	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:54:33.031 plugin-container[22428:788055] Warning: did not get back bottom left metric
+2017-08-13 21:54:33.031 plugin-container[22428:788055] Warning: did not get back top right metric
+2017-08-13 21:54:33.032 plugin-container[22428:788055] Warning: did not get back bottom left metric
+2017-08-13 21:54:33.032 plugin-container[22428:788055] Warning: did not get back top right metric
+1502632473157	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502632473157	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502632473169	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=DEcLOfDrQnVkDNtjy6OKuoP0JpBkZbZeyT3xdfjf"
+1502632473478	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=DEcLOfDrQnVkDNtjy6OKuoP0JpBkZbZeyT3xdfjf"
+1502632473572	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=DEcLOfDrQnVkDNtjy6OKuoP0JpBkZbZeyT3xdfjf"
+1502632473764	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=DEcLOfDrQnVkDNtjy6OKuoP0JpBkZbZeyT3xdfjf"
+1502632473765	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=DEcLOfDrQnVkDNtjy6OKuoP0JpBkZbZeyT3xdfjf"
+1502632475407	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=FNUN-OL68-I34O-U56T-F1AL-K394-J900-2TEI"
+1502632476168	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=FNUN-OL68-I34O-U56T-F1AL-K394-J900-2TEI"
+1502632481540	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632484327	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632485634	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632486051	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632519990	geckodriver	INFO	geckodriver 0.18.0
+1502632520001	geckodriver	INFO	Listening on 127.0.0.1:56022
+1502632521082	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502632523962	Marionette	INFO	Listening on port 56036
+1502632524074	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502632524151	Marionette	INFO	Ceased listening
+1502632524478	Marionette	DEBUG	loaded listener.js
+1502632524536	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 21:55:24.631 plugin-container[22450:788751] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 21:55:24.638 plugin-container[22450:788751] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502632524685	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502632524685	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502632525050	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:55:25.102 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.102 plugin-container[22450:788751] Warning: did not get back top right metric
+2017-08-13 21:55:25.116 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.116 plugin-container[22450:788751] Warning: did not get back top right metric
+2017-08-13 21:55:25.253 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.253 plugin-container[22450:788751] Warning: did not get back top right metric
+2017-08-13 21:55:25.254 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.254 plugin-container[22450:788751] Warning: did not get back top right metric
+2017-08-13 21:55:25.282 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.282 plugin-container[22450:788751] Warning: did not get back top right metric
+2017-08-13 21:55:25.284 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.284 plugin-container[22450:788751] Warning: did not get back top right metric
+1502632525336	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:55:25.345 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.345 plugin-container[22450:788751] Warning: did not get back top right metric
+2017-08-13 21:55:25.346 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.347 plugin-container[22450:788751] Warning: did not get back top right metric
+1502632525778	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 21:55:25.790 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.790 plugin-container[22450:788751] Warning: did not get back top right metric
+2017-08-13 21:55:25.790 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:25.790 plugin-container[22450:788751] Warning: did not get back top right metric
+1502632525895	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502632525895	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502632525909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=VI9dZQdNxZXQ9w6veyWiKtu2SkUCipPB3iZIuco2"
+1502632526112	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=VI9dZQdNxZXQ9w6veyWiKtu2SkUCipPB3iZIuco2"
+1502632526214	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=VI9dZQdNxZXQ9w6veyWiKtu2SkUCipPB3iZIuco2"
+1502632526451	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=VI9dZQdNxZXQ9w6veyWiKtu2SkUCipPB3iZIuco2"
+1502632526452	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=VI9dZQdNxZXQ9w6veyWiKtu2SkUCipPB3iZIuco2"
+1502632527959	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=K1KW-7KGA-KNOW-C8XS-B2D6-HRDK-Z8SG-788Y"
+1502632528382	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=K1KW-7KGA-KNOW-C8XS-B2D6-HRDK-Z8SG-788Y"
+1502632533757	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632536466	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632537772	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632538190	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502632543249	Marionette	DEBUG	loaded listener.js
+1502632543427	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+2017-08-13 21:55:46.358 plugin-container[22450:788751] Warning: did not get back bottom left metric
+2017-08-13 21:55:46.358 plugin-container[22450:788751] Warning: did not get back top right metric
+1502632568515	Marionette	INFO	Ceased listening
+1502633514679	geckodriver	INFO	geckodriver 0.18.0
+1502633514687	geckodriver	INFO	Listening on 127.0.0.1:59261
+1502633515841	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502633518865	Marionette	INFO	Listening on port 59271
+1502633518997	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502633519311	Marionette	DEBUG	loaded listener.js
+1502633519418	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 22:11:59.469 plugin-container[22683:796016] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 22:11:59.476 plugin-container[22683:796016] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502633519538	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502633519539	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502633519759	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633519763	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:11:59.843 plugin-container[22683:796016] Warning: did not get back bottom left metric
+2017-08-13 22:11:59.844 plugin-container[22683:796016] Warning: did not get back top right metric
+2017-08-13 22:11:59.858 plugin-container[22683:796016] Warning: did not get back bottom left metric
+2017-08-13 22:11:59.858 plugin-container[22683:796016] Warning: did not get back top right metric
+1502633520223	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:12:00.231 plugin-container[22683:796016] Warning: did not get back bottom left metric
+2017-08-13 22:12:00.231 plugin-container[22683:796016] Warning: did not get back top right metric
+2017-08-13 22:12:00.231 plugin-container[22683:796016] Warning: did not get back bottom left metric
+2017-08-13 22:12:00.232 plugin-container[22683:796016] Warning: did not get back top right metric
+1502633520336	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633520336	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633520353	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=rPm3M2C7oMizl_HawIVVNho46VII2fVas7jWNt2A"
+1502633520730	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=rPm3M2C7oMizl_HawIVVNho46VII2fVas7jWNt2A"
+1502633520830	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=rPm3M2C7oMizl_HawIVVNho46VII2fVas7jWNt2A"
+1502633521023	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=rPm3M2C7oMizl_HawIVVNho46VII2fVas7jWNt2A"
+1502633521024	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=rPm3M2C7oMizl_HawIVVNho46VII2fVas7jWNt2A"
+1502633524176	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=4DCK-3TD0-ISRN-P2BL-3TDL-J0NU-ZC3Y-0924"
+1502633524586	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=4DCK-3TD0-ISRN-P2BL-3TDL-J0NU-ZC3Y-0924"
+1502633529990	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633534419	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633535725	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633536140	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633541222	Marionette	DEBUG	loaded listener.js
+1502633541402	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: https://www.dbs.com.sg/ibanking/redirect/resources/js/jquery.min.js, line 4: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.dbs.com.sg/iwov-resources/scripts/web/jquery.min.js, line 3: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1502633568748	geckodriver	INFO	geckodriver 0.18.0
+1502633568752	geckodriver	INFO	Listening on 127.0.0.1:59590
+1502633568837	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502633571366	Marionette	INFO	Listening on port 59594
+1502633571517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502633571956	Marionette	DEBUG	loaded listener.js
+1502633572018	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 22:12:52.111 plugin-container[22708:797173] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 22:12:52.114 plugin-container[22708:797173] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502633572147	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502633572148	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502633572388	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633572393	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:12:52.435 plugin-container[22708:797173] Warning: did not get back bottom left metric
+2017-08-13 22:12:52.435 plugin-container[22708:797173] Warning: did not get back top right metric
+2017-08-13 22:12:52.449 plugin-container[22708:797173] Warning: did not get back bottom left metric
+2017-08-13 22:12:52.449 plugin-container[22708:797173] Warning: did not get back top right metric
+1502633572701	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:12:52.713 plugin-container[22708:797173] Warning: did not get back bottom left metric
+2017-08-13 22:12:52.713 plugin-container[22708:797173] Warning: did not get back top right metric
+2017-08-13 22:12:52.713 plugin-container[22708:797173] Warning: did not get back bottom left metric
+2017-08-13 22:12:52.713 plugin-container[22708:797173] Warning: did not get back top right metric
+1502633572821	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633572822	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633572839	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=zwWuFnoWHQmPEcS-SQG1mFbnWaV9Xpai2BDWUISb"
+1502633573257	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=zwWuFnoWHQmPEcS-SQG1mFbnWaV9Xpai2BDWUISb"
+1502633573372	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=zwWuFnoWHQmPEcS-SQG1mFbnWaV9Xpai2BDWUISb"
+1502633573553	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=zwWuFnoWHQmPEcS-SQG1mFbnWaV9Xpai2BDWUISb"
+1502633573554	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=zwWuFnoWHQmPEcS-SQG1mFbnWaV9Xpai2BDWUISb"
+1502633575564	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=594L-IQKR-JXIG-70KJ-POXW-7DBC-UB3M-QVUM"
+1502633576075	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=594L-IQKR-JXIG-70KJ-POXW-7DBC-UB3M-QVUM"
+1502633581627	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633600865	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633602175	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633602644	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=594L-IQKR-JXIG-70KJ-POXW-7DBC-UB3M-QVUM, line 1: ReferenceError: checkSubmitCBI is not defined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1502633693812	geckodriver	INFO	geckodriver 0.18.0
+1502633693818	geckodriver	INFO	Listening on 127.0.0.1:60053
+1502633693906	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502633696721	Marionette	INFO	Listening on port 60057
+1502633696787	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502633697107	Marionette	DEBUG	loaded listener.js
+1502633697143	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 22:14:57.264 plugin-container[22765:798706] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 22:14:57.274 plugin-container[22765:798706] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502633697289	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502633697289	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+2017-08-13 22:14:57.580 plugin-container[22765:798706] Warning: did not get back bottom left metric
+2017-08-13 22:14:57.580 plugin-container[22765:798706] Warning: did not get back top right metric
+2017-08-13 22:14:57.593 plugin-container[22765:798706] Warning: did not get back bottom left metric
+2017-08-13 22:14:57.593 plugin-container[22765:798706] Warning: did not get back top right metric
+1502633697595	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:14:57.621 plugin-container[22765:798706] Warning: did not get back bottom left metric
+2017-08-13 22:14:57.621 plugin-container[22765:798706] Warning: did not get back top right metric
+2017-08-13 22:14:57.622 plugin-container[22765:798706] Warning: did not get back bottom left metric
+2017-08-13 22:14:57.622 plugin-container[22765:798706] Warning: did not get back top right metric
+1502633697629	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633697951	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:14:57.959 plugin-container[22765:798706] Warning: did not get back bottom left metric
+2017-08-13 22:14:57.959 plugin-container[22765:798706] Warning: did not get back top right metric
+2017-08-13 22:14:57.960 plugin-container[22765:798706] Warning: did not get back bottom left metric
+2017-08-13 22:14:57.960 plugin-container[22765:798706] Warning: did not get back top right metric
+1502633698116	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633698116	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633698133	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=tyO46ce4ZSPhAomF1sUL0xJANcHXCLXHi87JsVls"
+1502633698343	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=tyO46ce4ZSPhAomF1sUL0xJANcHXCLXHi87JsVls"
+1502633698425	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=tyO46ce4ZSPhAomF1sUL0xJANcHXCLXHi87JsVls"
+1502633701446	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=tyO46ce4ZSPhAomF1sUL0xJANcHXCLXHi87JsVls"
+1502633701446	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=tyO46ce4ZSPhAomF1sUL0xJANcHXCLXHi87JsVls"
+1502633703220	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=KCUV-G91D-W5EM-FFBT-U67S-2F2G-MHL2-B2C4"
+1502633703636	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=KCUV-G91D-W5EM-FFBT-U67S-2F2G-MHL2-B2C4"
+1502633709155	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633729075	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633730380	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633730819	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633776474	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1502633782753	geckodriver	INFO	geckodriver 0.18.0
+1502633782757	geckodriver	INFO	Listening on 127.0.0.1:60441
+1502633782826	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1502633785855	Marionette	INFO	Listening on port 60445
+1502633785985	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502633786428	Marionette	DEBUG	loaded listener.js
+1502633786561	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-08-13 22:16:26.608 plugin-container[22793:799722] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-13 22:16:26.613 plugin-container[22793:799722] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1502633786869	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1502633786869	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1502633787036	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633787042	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:16:27.091 plugin-container[22793:799722] Warning: did not get back bottom left metric
+2017-08-13 22:16:27.091 plugin-container[22793:799722] Warning: did not get back top right metric
+2017-08-13 22:16:27.105 plugin-container[22793:799722] Warning: did not get back bottom left metric
+2017-08-13 22:16:27.105 plugin-container[22793:799722] Warning: did not get back top right metric
+1502633787576	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+2017-08-13 22:16:27.585 plugin-container[22793:799722] Warning: did not get back bottom left metric
+2017-08-13 22:16:27.585 plugin-container[22793:799722] Warning: did not get back top right metric
+2017-08-13 22:16:27.586 plugin-container[22793:799722] Warning: did not get back bottom left metric
+2017-08-13 22:16:27.586 plugin-container[22793:799722] Warning: did not get back top right metric
+1502633787698	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633787698	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/logon/loginSSO"
+1502633787724	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=LbsaeX0bCSqOem9mQiexukUC3z3FJqpuxKQCV7dZ"
+1502633787949	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=LbsaeX0bCSqOem9mQiexukUC3z3FJqpuxKQCV7dZ"
+1502633788046	Marionette	DEBUG	Received DOM event "beforeunload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=LbsaeX0bCSqOem9mQiexukUC3z3FJqpuxKQCV7dZ"
+1502633788288	Marionette	DEBUG	Received DOM event "pagehide" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=LbsaeX0bCSqOem9mQiexukUC3z3FJqpuxKQCV7dZ"
+1502633788288	Marionette	DEBUG	Received DOM event "unload" for "https://192.168.0.245:9444/s1gcb/efd/loginSSO;jsessionid=LbsaeX0bCSqOem9mQiexukUC3z3FJqpuxKQCV7dZ"
+1502633788636	Marionette	INFO	Ceased listening
+1502633790611	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=5JZE-MMOK-YT8G-BE2U-W4Y1-ULGR-TOBN-G2LQ"
+1502633791472	Marionette	DEBUG	Received DOM event "pageshow" for "https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=5JZE-MMOK-YT8G-BE2U-W4Y1-ULGR-TOBN-G2LQ"
+1502633797015	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633816341	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633817652	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633818078	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1502633875186	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+JavaScript error: chrome://browser/content/places/browserPlacesViews.js, line 261: TypeError: this.controller is undefined
+1502634104472	Marionette	INFO	Ceased listening
