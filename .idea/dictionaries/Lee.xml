@@ -6,6 +6,8 @@
       <w>logincb</w>
       <w>loginid</w>
       <w>nextbutton</w>
+      <w>sbuser</w>
+      <w>userid</w>
     </words>
   </dictionary>
 </component>
