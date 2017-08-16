@@ -14,7 +14,7 @@ class TelegraphicTransferTest(unittest.TestCase):
 
 	def setUp(self):
 		self.driver = webdriver.Firefox(executable_path='./../drivers/geckodriver')
-		self.driver.maximize_window()
+		# self.driver.maximize_window()
 
 	def tearDown(self):
 		self.driver.quit()
