@@ -13,8 +13,8 @@ class Login(Page):
 	url = ''
 
 	# locator
-	loginId_loc = (By.ID, "ssoUserid")
-	companyId_loc = (By.ID, "ssoCompanyID")
+	loginId_loc = (By.NAME, "ssoUserid")
+	companyId_loc = (By.NAME, "ssoCompanyID")
 	cbBtn_loc = (By.NAME, "submit_sbuserLogin")
 	nextBtn_loc = (By.ID, "previewButton_Link")
 
@@ -26,7 +26,7 @@ class Login(Page):
 	def type_companyid(self, companyid):
 		self.find_element(*self.companyId_loc).send_keys(companyid)
 
-	# click CB button
+	# click cb button
 	def click_cbbutton(self):
 		self.find_element(*self.cbBtn_loc).click()
 
@@ -34,7 +34,7 @@ class Login(Page):
 	def click_nextbutton(self):
 		self.find_element(*self.nextBtn_loc).click()
 
-	# login CB side
+	# login cb side
 	def logincb(self, loginid='SG2BFE1S01', companyid='SG2BFE1'):
 		self.open()
 		self.type_loginid(loginid)

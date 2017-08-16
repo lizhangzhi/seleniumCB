@@ -1,6 +1,6 @@
-import unittest
+import unittest, sys
 from selenium import webdriver
-# from .page_object.loginPage import Login
+from page_object.loginPage import Login
 
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
@@ -14,13 +14,12 @@ class TelegraphicTransferTest(unittest.TestCase):
 
 	def setUp(self):
 		self.driver = webdriver.Firefox(executable_path='./../drivers/geckodriver')
-		# self.driver.maximize_window()
+		Login(self.driver).logincb()
 
 	def tearDown(self):
 		self.driver.quit()
 
-	def test_TT(self):
-		# Login(self.driver).logincb(loginid="", companyid="")
+	def test_createTT(self):
 		self.assertEqual(3, 3)
 
 if __name__ == '__main__':

@@ -1,3 +1,4 @@
+# from selenium import webdriver
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
@@ -17,7 +18,7 @@ class Page(object):
 
     def _open(self, url):
         self.url = self.base_url + url
-        self.driver.get(url)
+        self.driver.get(self.url)
 
     def open(self):
         self._open(self.url)
