@@ -1,6 +1,6 @@
-import unittest, sys
-from selenium import webdriver
-from page_object.loginPage import Login
+import unittest
+from test_case.model import myunit
+from test_case.page_object.loginPage import Login
 
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
@@ -10,16 +10,10 @@ __author__ = 'lizhangzhi'
 '''
 
 
-class TelegraphicTransferTest(unittest.TestCase):
-
-	def setUp(self):
-		self.driver = webdriver.Firefox(executable_path='./../drivers/geckodriver')
-		Login(self.driver).logincb()
-
-	def tearDown(self):
-		self.driver.quit()
+class TelegraphicTransferTest(myunit.MyUnittest):
 
 	def test_createTT(self):
+		Login(self.driver).logincb()
 		self.assertEqual(3, 3)
 
 if __name__ == '__main__':
