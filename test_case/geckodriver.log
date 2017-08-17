@@ -1,6 +1,7 @@
-1502939862069	geckodriver	INFO	geckodriver 0.18.0
-1502939862082	geckodriver	INFO	Listening on 127.0.0.1:55047
-1502939864139	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502939868126	Marionette	INFO	Listening on port 55053
-1502939868417	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502939872875	Marionette	INFO	New connections will no longer be accepted
+1502955354713	geckodriver	INFO	geckodriver 0.18.0
+1502955354729	geckodriver	INFO	Listening on 127.0.0.1:64631
+1502955356790	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1502955362611	Marionette	INFO	Listening on port 64637
+1502955362909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1502955367221	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/jquery-1.4.3.min.js, line 136: TypeError: location is null
