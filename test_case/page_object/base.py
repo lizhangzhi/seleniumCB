@@ -1,4 +1,4 @@
-# from selenium import webdriver
+# from test_case.model.driver import browser
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
@@ -9,6 +9,7 @@ __author__ = 'lizhangzhi'
 
 class Page(object):
     cb_url = 'https://192.168.0.245:9444/s1gcb/logon/loginSSO'
+    # selenium_driver = browser()
 
     def __init__(self, selenium_driver, base_url=cb_url, parent=None):
         self.base_url = base_url
