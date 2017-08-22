@@ -3,10 +3,12 @@
     <words>
       <w>cbbutton</w>
       <w>companyid</w>
+      <w>fromaccount</w>
       <w>geckodriver</w>
       <w>logincb</w>
       <w>loginid</w>
       <w>nextbutton</w>
+      <w>paymentcurrency</w>
       <w>paymentmenulist</w>
       <w>sbuser</w>
       <w>screenshot</w>

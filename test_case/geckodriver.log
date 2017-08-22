@@ -1,134 +1,36 @@
-1502955354713	geckodriver	INFO	geckodriver 0.18.0
-1502955354729	geckodriver	INFO	Listening on 127.0.0.1:64631
-1502955356790	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502955362611	Marionette	INFO	Listening on port 64637
-1502955362909	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502955367221	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/jquery-1.4.3.min.js, line 136: TypeError: location is null
-1502959352904	geckodriver	INFO	geckodriver 0.18.0
-1502959352919	geckodriver	INFO	Listening on 127.0.0.1:52852
-1502959354843	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502959359724	Marionette	INFO	Listening on port 52858
-1502959360107	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502959367674	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/jquery-1.4.3.min.js, line 136: TypeError: location is null
-1502959522886	geckodriver	INFO	geckodriver 0.18.0
-1502959522901	geckodriver	INFO	Listening on 127.0.0.1:53039
-1502959524950	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502959528942	Marionette	INFO	Listening on port 53046
-1502959529269	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502959546999	Marionette	INFO	Ceased listening
-0
-1502959529455	geckodriver	INFO	Listening on 127.0.0.1:53057
-1502959531503	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502959535248	Marionette	INFO	Listening on port 53068
-1502959535640	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502959540258	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing, line 4: TypeError: csrfGuard.loadToken is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing, line 6: TypeError: $(...).carousel is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-files/proxy.js, line 736: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing, line 3: TypeError: $(...).tab is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing, line 2: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing, line 13: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing, line 4: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing, line 3: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-extensions/s1/managers/CBiApplication.js?v=20140827, line 225: TypeError: $ is not a function
-1502959728352	geckodriver	INFO	geckodriver 0.18.0
-1502959728366	geckodriver	INFO	Listening on 127.0.0.1:53291
-1502959730424	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502959734602	Marionette	INFO	Listening on port 53298
-1502959735661	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502959739532	Marionette	INFO	New connections will no longer be accepted
-1502959893445	geckodriver	INFO	geckodriver 0.18.0
-1502959893457	geckodriver	INFO	Listening on 127.0.0.1:53464
-1502959895525	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502959899617	Marionette	INFO	Listening on port 53471
-1502959899866	Marionette	WARN	TLS certificate errors will be ignored for this session
-*************************
-A coding exception was thrown and uncaught in a Task.
-
-Full message: TypeError: NetworkError when attempting to fetch resource.
-Full stack: 
-*************************
-1502963273247	Marionette	INFO	Ceased listening
-1502960140614	Marionette	INFO	Listening on port 53789
-1502960141774	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502960146934	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=05QO-I7I6-QEKD-EUNJ-NKLK-273P-IBA0-0S4X, line 4: TypeError: csrfGuard.loadToken is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=05QO-I7I6-QEKD-EUNJ-NKLK-273P-IBA0-0S4X, line 6: TypeError: $(...).carousel is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-files/proxy.js, line 736: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=05QO-I7I6-QEKD-EUNJ-NKLK-273P-IBA0-0S4X, line 3: TypeError: $(...).tab is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=05QO-I7I6-QEKD-EUNJ-NKLK-273P-IBA0-0S4X, line 2: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=05QO-I7I6-QEKD-EUNJ-NKLK-273P-IBA0-0S4X, line 13: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=05QO-I7I6-QEKD-EUNJ-NKLK-273P-IBA0-0S4X, line 4: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=05QO-I7I6-QEKD-EUNJ-NKLK-273P-IBA0-0S4X, line 3: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-extensions/s1/managers/CBiApplication.js?v=20140827, line 225: TypeError: $ is not a function
-gcb/app/js/gbs-extensions/s1/managers/CBiApplication.js?v=20140827, line 225: TypeError: $ is not a function
-1502960156157	geckodriver	INFO	geckodriver 0.18.0
-1502960156173	geckodriver	INFO	Listening on 127.0.0.1:53931
-1502960158252	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502960163314	Marionette	INFO	Listening on port 53944
-1502960164072	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502960168056	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=OPEH-B4RY-7VHI-6XT4-YHW7-2M4J-85A6-QC70, line 4: TypeError: csrfGuard.loadToken is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=OPEH-B4RY-7VHI-6XT4-YHW7-2M4J-85A6-QC70, line 6: TypeError: $(...).carousel is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-files/proxy.js, line 736: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=OPEH-B4RY-7VHI-6XT4-YHW7-2M4J-85A6-QC70, line 3: TypeError: $(...).tab is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=OPEH-B4RY-7VHI-6XT4-YHW7-2M4J-85A6-QC70, line 2: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=OPEH-B4RY-7VHI-6XT4-YHW7-2M4J-85A6-QC70, line 13: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=OPEH-B4RY-7VHI-6XT4-YHW7-2M4J-85A6-QC70, line 4: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=OPEH-B4RY-7VHI-6XT4-YHW7-2M4J-85A6-QC70, line 3: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-extensions/s1/managers/CBiApplication.js?v=20140827, line 225: TypeError: $ is not a function
-1502960269028	geckodriver	INFO	geckodriver 0.18.0
-1502960269041	geckodriver	INFO	Listening on 127.0.0.1:54095
-1502960271100	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502960275106	Marionette	INFO	Listening on port 54101
-1502960275349	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502960282508	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=AX75-I9X6-7RF9-3UBO-JXAA-QXIJ-6XDJ-3BDD, line 4: TypeError: csrfGuard.loadToken is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=AX75-I9X6-7RF9-3UBO-JXAA-QXIJ-6XDJ-3BDD, line 6: TypeError: $(...).carousel is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-files/proxy.js, line 736: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=AX75-I9X6-7RF9-3UBO-JXAA-QXIJ-6XDJ-3BDD, line 3: TypeError: $(...).tab is not a function
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=AX75-I9X6-7RF9-3UBO-JXAA-QXIJ-6XDJ-3BDD, line 2: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=AX75-I9X6-7RF9-3UBO-JXAA-QXIJ-6XDJ-3BDD, line 13: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=AX75-I9X6-7RF9-3UBO-JXAA-QXIJ-6XDJ-3BDD, line 4: ReferenceError: Ladda is not defined
-JavaScript error: https://192.168.0.245:9444/s1gcb/sbb/gbs/landing?OWASP_CSRFTOKEN=AX75-I9X6-7RF9-3UBO-JXAA-QXIJ-6XDJ-3BDD, line 3: TypeError: $ is undefined
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/gbs-extensions/s1/managers/CBiApplication.js?v=20140827, line 225: TypeError: $ is not a function
-1502960311838	geckodriver	INFO	geckodriver 0.18.0
-1502960311851	geckodriver	INFO	Listening on 127.0.0.1:54180
-1502960313908	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502960318279	Marionette	INFO	Listening on port 54186
-1502960319149	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502960338091	Marionette	INFO	New connections will no longer be accepted
-1502960734754	geckodriver	INFO	geckodriver 0.18.0
-1502960734768	geckodriver	INFO	Listening on 127.0.0.1:54588
-1502960736819	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502960741216	Marionette	INFO	Listening on port 54594
-1502960742109	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502960746794	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/jquery-1.4.3.min.js, line 136: TypeError: location is null
-1502962470363	geckodriver	INFO	geckodriver 0.18.0
-1502962470380	geckodriver	INFO	Listening on 127.0.0.1:56304
-1502962472432	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502962477639	Marionette	INFO	Listening on port 56311
-1502962477949	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502962485524	Marionette	INFO	New connections will no longer be accepted
-1502963250361	geckodriver	INFO	geckodriver 0.18.0
-1502963250378	geckodriver	INFO	Listening on 127.0.0.1:57091
-1502963252445	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502963257338	Marionette	INFO	Listening on port 57097
-1502963257819	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502963265038	Marionette	INFO	New connections will no longer be accepted
-1502963287949	geckodriver	INFO	geckodriver 0.18.0
-1502963287967	geckodriver	INFO	Listening on 127.0.0.1:57171
-1502963290010	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe1502963290095	geckodriver::1502963296214	Marionette	INFO	Listening on port 57181
-1502963296618	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502963304136	Marionette	INFO	New connections will no longer be accepted
-JavaScript error: https://192.168.0.245:9444/s1gcb/app/js/jquery-1.4.3.min.js, line 136: TypeError: location is null
-pt error: https://192.168.0.245:9444/s1gcb/app/js/jquery-1.4.3.min.js, line 136: TypeError: location is null
-1502963420067	geckodriver	INFO	geckodriver 0.18.0
-1502963420082	geckodriver	INFO	Listening on 127.0.0.1:57392
-1502963422153	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
-1502963426647	Marionette	INFO	Listening on port 57398
-1502963427568	Marionette	WARN	TLS certificate errors will be ignored for this session
-1502963444713	Marionette	INFO	New connections will no longer be accepted
+1503390307665	geckodriver	INFO	geckodriver 0.18.0
+1503390307681	geckodriver	INFO	Listening on 127.0.0.1:50920
+1503390309700	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503390313373	Marionette	INFO	Listening on port 50929
+1503390313833	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503390366873	Marionette	INFO	New connections will no longer be accepted
+1503390414440	geckodriver	INFO	geckodriver 0.18.0
+1503390414453	geckodriver	INFO	Listening on 127.0.0.1:51050
+1503390416549	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe1503390416622	geckodriver::1503390421037	Marionette	INFO	Listening on port 51062
+1503390421796	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503390423320	Marionette	INFO	New connections will no longer be accepted
+s will be ignored for this session
+1503391085652	geckodriver	INFO	geckodriver 0.18.0
+1503391085665	geckodriver	INFO	Listening on 127.0.0.1:51676
+1503391087727	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503391091529	Marionette	INFO	Listening on port 51682
+1503391091873	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503391128216	Marionette	INFO	New connections will no longer be accepted
+1503391272194	geckodriver	INFO	geckodriver 0.18.0
+1503391272206	geckodriver	INFO	Listening on 127.0.0.1:51847
+1503391274269	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503391278115	Marionette	INFO	Listening on port 51854
+1503391278442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503391298819	Marionette	INFO	New connections will no longer be accepted
+1503392498759	geckodriver	INFO	geckodriver 0.18.0
+1503392498771	geckodriver	INFO	Listening on 127.0.0.1:53027
+1503392500842	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503392504557	Marionette	INFO	Listening on port 53034
+1503392504973	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503392544041	Marionette	INFO	New connections will no longer be accepted
+1503396375958	geckodriver	INFO	geckodriver 0.18.0
+1503396375973	geckodriver	INFO	Listening on 127.0.0.1:55545
+1503396377978	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1503396381574	Marionette	INFO	Listening on port 55551
+1503396381847	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503396420610	Marionette	INFO	New connections will no longer be accepted

@@ -35,7 +35,7 @@ class Login(Page):
 		self.find_element(*self.nextBtn_loc).click()
 
 	# login cb side
-	def logincb(self, loginid='SG2BFE1S01', companyid='SG2BFE1'):
+	def logincb(self, loginid='SG2BFE1S04', companyid='SG2BFE1'):
 		self.open()
 		self.type_loginid(loginid)
 		self.type_companyid(companyid)

@@ -12,7 +12,6 @@ __author__ = 'lizhangzhi'
 class MyUnittest(unittest.TestCase):
 	def setUp(self):
 		self.driver = browser()
-		self.driver.implicitly_wait(10)
 
 	def tearDown(self):
 		self.driver.quit()
