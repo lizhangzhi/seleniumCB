@@ -10,6 +10,7 @@ __author__ = 'lizhangzhi'
 
 
 class MyUnittest(unittest.TestCase):
+	# 定义自己的unitest类
 	def setUp(self):
 		self.driver = browser()
 

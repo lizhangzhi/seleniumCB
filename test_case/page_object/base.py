@@ -8,8 +8,8 @@ __author__ = 'lizhangzhi'
 
 
 class Page(object):
+    # 基类
     cb_url = 'https://192.168.0.245:9444/s1gcb/logon/loginSSO'
-    # selenium_driver = browser()
 
     def __init__(self, selenium_driver, base_url=cb_url, parent=None):
         self.base_url = base_url

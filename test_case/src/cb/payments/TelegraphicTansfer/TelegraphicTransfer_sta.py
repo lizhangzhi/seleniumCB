@@ -11,7 +11,7 @@ __author__ = 'lizhangzhi'
 
 
 class TelegraphicTransferTest(myunit.MyUnittest):
-	"""Telegraphic Transfer operation test"""
+	"""Telegraphic Transfer Test"""
 
 	def test_createTT(self):
 		"""Create Telegraphic Transfer"""

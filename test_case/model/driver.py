@@ -9,10 +9,6 @@ __author__ = 'lizhangzhi'
 
 
 def browser():
+	# 定义 webdriver
 	driver = webdriver.Firefox(executable_path='./../drivers/geckodriver')
 	return driver
-
-if __name__ == '__main__':
-	dr = browser()
-	dr.get("http://www.baidu.com/")
-	dr.quit()
