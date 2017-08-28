@@ -1,0 +1,1 @@
+java -jar ./package/selenium-server-standalone-3.5.2.jar

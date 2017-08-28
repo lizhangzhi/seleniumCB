@@ -60,7 +60,7 @@ if __name__ == '__main__':
 	now = time.strftime("%Y-%m-%d %H_%M_%S")
 	filename = '../report/' + now + 'result.html'
 	fp = open(filename, 'wb')
-	runner = HTMLTestRunner(stream=fp, title='IDEAL3 automated test report', description='Windows10  Firefox')
+	runner = HTMLTestRunner(stream=fp, title='IDEAL3 automated test report', description='Windows10    Firefox')
 	# 用discover通过标准加载测试用例
 	discover = unittest.defaultTestLoader.discover('../test_case/', pattern='*_sta.py', top_level_dir=None)
 	runner.run(discover)

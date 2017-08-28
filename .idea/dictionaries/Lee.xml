@@ -5,6 +5,7 @@
       <w>companyid</w>
       <w>fromaccount</w>
       <w>geckodriver</w>
+      <w>lizhangzhi</w>
       <w>logincb</w>
       <w>loginid</w>
       <w>nextbutton</w>
@@ -15,6 +16,7 @@
       <w>smtp</w>
       <w>telegraphictransfer</w>
       <w>userid</w>
+      <w>webdriver</w>
     </words>
   </dictionary>
 </component>
