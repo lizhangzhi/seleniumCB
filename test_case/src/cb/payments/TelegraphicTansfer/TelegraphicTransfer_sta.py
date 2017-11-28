@@ -1,6 +1,6 @@
 from test_case.model import myunit
-from test_case.page_object.loginPage import Login
-from test_case.src.cb.payments.TelegraphicTansfer import TelegraphicTransferPage
+from test_case.page_object.loginPage import LoginPage
+from test_case.src.cb.payments.paymentsPage import PaymentPage
 
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
@@ -11,12 +11,22 @@ __author__ = 'lizhangzhi'
 
 
 class TelegraphicTransferTest(myunit.MyUnittest):
-	"""Telegraphic Transfer Test"""
+
+	def createTT(self):
+
+		login = LoginPage(self.driver)
+		login.logincb()
+		telegraphic_transfer = PaymentPage(self.driver)
+		telegraphic_transfer.open_payment_menu()
+		telegraphic_transfer.to_telegraphic_transfer()
+		telegraphic_transfer.select_from_account()
+		telegraphic_transfer.select_payment_currency()
+		telegraphic_transfer.enter_amount('10')
+		telegraphic_transfer.select_beneficiary()
+		# telegraphic_transfer.click_preview_button()
+		# telegraphic_transfer.click_submit_button()
 
 	def test_createTT(self):
-		"""Create Telegraphic Transfer"""
-
-		Login(self.driver).logincb()
-		TelegraphicTransferPage.create_telegraphic_transfer(self.driver)
 		# function.take_screenshot(self.driver, 'create tt.jpg')
+		self.createTT()
 		self.assertEqual(3, 3)
