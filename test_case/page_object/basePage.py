@@ -94,3 +94,11 @@ class BasePage(object):
             ActionChains(self.driver).move_to_element(element).perform()
         except Exception:
             print("page {0} can't find locator {1} or element {2}".format(self.driver.current_url, loc, element))
+
+    # 向上移动浏览器滚动条
+    def scroll_up(self):
+        self.script("window.scrollBy(0, 0)")
+
+    # 向上移动浏览器滚动条
+    def scroll_down(self):
+        self.script("window.scrollBy(0, 1000)")
