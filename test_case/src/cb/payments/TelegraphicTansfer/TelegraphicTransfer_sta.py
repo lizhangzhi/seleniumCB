@@ -12,6 +12,7 @@ __author__ = 'lizhangzhi'
 
 class TelegraphicTransferTest(myunit.MyUnittest):
 
+	@staticmethod
 	def createTT(self):
 
 		login = LoginPage(self.driver)

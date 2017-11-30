@@ -17,7 +17,7 @@ class BasePage(object):
     def __init__(self, selenium_driver):
         self.driver = selenium_driver
         self.timeout = 30
-        self.frequency = 1
+        self.poll_frequency = 1
 
     def _open(self, url):
         self.driver.get(url)
@@ -29,21 +29,23 @@ class BasePage(object):
     # 重写元素定位方法
     def find_element(self, loc):
         try:
-            return WebDriverWait(self.driver, self.timeout, self.frequency).until(EC.visibility_of_element_located(loc))
+            return WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                .until(EC.visibility_of_element_located(loc))
         except Exception:
             print("page {0} can't find locator {1}".format(self.driver.current_url, loc))
 
     # 重写一组元素定位方法
     def find_elements(self, loc):
         try:
-            return WebDriverWait(self.driver, self.timeout, self.frequency).until(EC.visibility_of_element_located(loc))
+            return WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                .until(EC.visibility_of_element_located(loc))
         except Exception as e:
             print("page {0} can't find elements for this locator {1}".format(self.driver.current_url, loc))
 
     # 重写下拉框定位方法
     def select_dropdown(self, loc):
         try:
-            WebDriverWait(self.driver, self.timeout, self.frequency).until(EC.visibility_of_element_located(loc))
+            WebDriverWait(self.driver, self.timeout, self.poll_frequency).until(EC.visibility_of_element_located(loc))
             return Select(self.find_element(loc))
         except Exception:
             print("page %s can't find dropdown %s" % (self.driver.current_url, loc))
@@ -70,7 +72,7 @@ class BasePage(object):
             print("page {0} can't switch to window {1}".format(self.driver.current_url, loc))
 
     # 重写send_keys方法(在输入前能先执行click,clear等操作，可再扩展)
-    def send_keys(self, loc, value, click_first = True, clear_first = True):
+    def send_keys(self, loc, value, click_first=True, clear_first=True):
         try:
             if click_first:
                 self.find_element(loc).click()

@@ -6,7 +6,7 @@ __author__ = 'lizhangzhi'
 '''
 @file: paymentsPage.py
 @time: 2017/8/17 15:46
-payment菜单下页面的通用操作方法
+编写payment菜单下页面的通用操作方法
 '''
 
 
@@ -39,4 +39,4 @@ class PaymentPage(BasePage):
 
 	def select_beneficiary(self):
 		self.select_dropdown(self.beneficiary_loc).select_by_index(2)
-		sleep(5)
+		sleep(3)

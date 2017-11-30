@@ -52,6 +52,3 @@ class ConfigUtil(object):
             return int(config[section][option])
         else:
             return int(config[section])
-
-
-
