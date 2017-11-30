@@ -14,14 +14,13 @@ __author__ = 'lizhangzhi'
 class BasePage(object):
     # 实例化BasePage类时，最先执行的就是__init__方法，该方法的入参，其实就是BasePage类的入参
 
-    def __init__(self, selenium_driver, base_url='https://116.12.252.152/s1gcb/logon/loginSSO'):
-        self.base_url = base_url
+    def __init__(self, selenium_driver):
         self.driver = selenium_driver
         self.timeout = 30
+        self.frequency = 1
 
     def _open(self, url):
-        self.url = self.base_url + url
-        self.driver.get(self.url)
+        self.driver.get(url)
 
     # 定义open方法，调用_open()进行打开链接
     def open(self, url):
@@ -30,21 +29,21 @@ class BasePage(object):
     # 重写元素定位方法
     def find_element(self, loc):
         try:
-            return WebDriverWait(self.driver, 30, 1).until(EC.visibility_of_element_located(loc))
+            return WebDriverWait(self.driver, self.timeout, self.frequency).until(EC.visibility_of_element_located(loc))
         except Exception:
             print("page {0} can't find locator {1}".format(self.driver.current_url, loc))
 
     # 重写一组元素定位方法
-    def find_elements(self, *loc):
+    def find_elements(self, loc):
         try:
-            return WebDriverWait(self.driver, 30, 1).until(EC.visibility_of_element_located())
+            return WebDriverWait(self.driver, self.timeout, self.frequency).until(EC.visibility_of_element_located(loc))
         except Exception as e:
             print("page {0} can't find elements for this locator {1}".format(self.driver.current_url, loc))
 
     # 重写下拉框定位方法
     def select_dropdown(self, loc):
         try:
-            WebDriverWait(self.driver, 30, 1).until(EC.visibility_of_element_located(loc))
+            WebDriverWait(self.driver, self.timeout, self.frequency).until(EC.visibility_of_element_located(loc))
             return Select(self.find_element(loc))
         except Exception:
             print("page %s can't find dropdown %s" % (self.driver.current_url, loc))

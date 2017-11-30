@@ -15,7 +15,7 @@ class TelegraphicTransferTest(myunit.MyUnittest):
 	def createTT(self):
 
 		login = LoginPage(self.driver)
-		login.logincb()
+		login.logincb(self.url, self.login_id, self.company_id)
 		telegraphic_transfer = PaymentPage(self.driver)
 		telegraphic_transfer.open_payment_menu()
 		telegraphic_transfer.to_telegraphic_transfer()

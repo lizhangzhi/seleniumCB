@@ -1,5 +1,6 @@
 import unittest
 from .driver import browser
+from .configUtil import ConfigUtil
 
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
@@ -10,9 +11,14 @@ __author__ = 'lizhangzhi'
 
 
 class MyUnittest(unittest.TestCase):
-	# 定义自己的unitest类
-	def setUp(self):
-		self.driver = browser()
+	# 定义自己的unittest类
+	@classmethod
+	def setUp(cls):
+		site = ConfigUtil.get(section='site')
+		cls.driver = browser()
+		cls.url = site['url']
+		cls.login_id = site['login_id']
+		cls.company_id = site['company_id']
 
 	def tearDown(self):
 		self.driver.quit()

@@ -1,6 +1,5 @@
 from selenium.webdriver.common.by import By
 from .basePage import BasePage
-
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
@@ -11,7 +10,6 @@ CB登陆页面基本操作方法
 
 
 class LoginPage(BasePage):
-	url = ''
 
 	loginId_loc = (By.NAME, "ssoUserid")
 	companyId_loc = (By.NAME, "ssoCompanyID")
@@ -30,8 +28,8 @@ class LoginPage(BasePage):
 	def click_nextbutton(self):
 		self.find_element(self.nextBtn_loc).click()
 
-	def logincb(self, loginid='SG2BFE1S11', companyid='SG2BFE1'):
-		self.open(self.url)
+	def logincb(self, url, loginid, companyid):
+		self.open(url)
 		self.type_loginid(loginid)
 		self.type_companyid(companyid)
 		self.click_cbbutton()
