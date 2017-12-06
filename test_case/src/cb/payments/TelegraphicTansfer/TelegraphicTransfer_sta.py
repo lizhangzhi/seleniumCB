@@ -1,6 +1,5 @@
 from time import sleep
-from test_case.model import myunit
-from test_case.page_object.loginPage import LoginPage
+from Util import *
 from test_case.src.cb.payments.paymentsPage import PaymentPage
 
 # -*- coding: utf-8 -*-

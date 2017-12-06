@@ -1,5 +1,5 @@
-from selenium.webdriver.common.by import By
-from test_case.page_object.basePage import BasePage
+from Util import *
+
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
