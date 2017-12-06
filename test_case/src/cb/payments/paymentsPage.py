@@ -11,8 +11,6 @@ __author__ = 'lizhangzhi'
 
 class PaymentPage(BasePage):
 
-	paymentMenu_loc = (By.ID, 'pmt')
-	telegraphicTransferLink_loc = (By.LINK_TEXT, 'Telegraphic Transfer')
 	fromaccount_loc = (By.ID, 'fromParty')
 	paymentcurrency_loc = (By.ID, 'paymentCurrency_currencyCode')
 	amount_loc = (By.ID, 'amount_value_control')
@@ -21,14 +19,6 @@ class PaymentPage(BasePage):
 	instruction_to_DBS_Bank_loc = (By.ID, 'messageToBank')
 	submit_button_loc = (By.ID, 'submitButton_Link')
 	success_message_loc = (By.ID, 'my_list')
-
-	def open_payment_menu(self):
-		self.find_element(self.paymentMenu_loc)
-		self.script("document.getElementById('pmt').parentElement.children[1]."
-							+ "style='opacity:1; margin-left: 0; width:320px;'")
-
-	def to_telegraphic_transfer(self):
-		self.find_element(self.telegraphicTransferLink_loc).click()
 
 	def select_from_account(self, account_text):
 		self.select_dropdown(self.fromaccount_loc).select_by_visible_text(account_text)

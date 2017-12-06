@@ -2,6 +2,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+from time import sleep
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
@@ -83,12 +85,10 @@ class BasePage(object):
             print("page {0} can't find locator {1}".format(self.driver.current_url, loc))
 
     # 重写鼠标悬停方法
-    def move_mouse_to_element(self, element='', loc=''):
+    def move_mouse_to_element(self, loc=''):
         try:
             if loc:
                 element = self.find_element(loc)
-            elif element:
-                element = element
             else:
                 print("mouse actions need target element")
             ActionChains(self.driver).move_to_element(element).perform()
@@ -102,3 +102,15 @@ class BasePage(object):
     # 向上移动浏览器滚动条
     def scroll_down(self):
         self.script("window.scrollBy(0, 1000)")
+
+    # 封装打开菜单的方法
+    def open_menu(self, level1_menu, level2_menu):
+        level1_loc = (By.LINK_TEXT, level1_menu)
+        level2_loc = (By.LINK_TEXT, level2_menu)
+        while True:
+            try:
+                self.move_mouse_to_element(level1_loc)
+                self.find_element(level2_loc).click()
+                break
+            except Exception:
+                pass

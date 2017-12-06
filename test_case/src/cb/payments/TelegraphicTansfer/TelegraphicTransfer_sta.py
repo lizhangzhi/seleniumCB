@@ -1,4 +1,3 @@
-from time import sleep
 from Util import *
 from test_case.src.cb.payments.paymentsPage import PaymentPage
 
@@ -17,9 +16,8 @@ class TelegraphicTransferTest(myunit.MyUnittest):
 		login = LoginPage(self.driver)
 		login.logincb(self.url, self.login_id, self.company_id)
 		telegraphic_transfer = PaymentPage(self.driver)
-		telegraphic_transfer.open_payment_menu()
+		telegraphic_transfer.open_menu("Payments", "Telegraphic Transfer")
 		sleep(3)
-		telegraphic_transfer.to_telegraphic_transfer()
 		telegraphic_transfer.select_from_account('LEONA ALBRECHT - 0018001843 - SGD')
 		telegraphic_transfer.select_payment_currency('SGD')
 		telegraphic_transfer.enter_amount('10')
