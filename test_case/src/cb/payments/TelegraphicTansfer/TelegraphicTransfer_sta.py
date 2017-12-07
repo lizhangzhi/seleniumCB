@@ -9,7 +9,7 @@ __author__ = 'lizhangzhi'
 '''
 
 
-class TelegraphicTransferTest(myunit.MyUnittest):
+class TelegraphicTransferTest(MyUnittest):
 
     def createTT(self):
 
