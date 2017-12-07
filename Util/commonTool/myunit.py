@@ -11,14 +11,14 @@ __author__ = 'lizhangzhi'
 
 
 class MyUnittest(unittest.TestCase):
-	# 定义自己的unittest类
-	@classmethod
-	def setUp(cls):
-		site = ConfigUtil.get(section='site')
-		cls.driver = browser()
-		cls.url = site['url']
-		cls.login_id = site['login_id']
-		cls.company_id = site['company_id']
+    # 定义自己的unittest类
+    @classmethod
+    def setUp(cls):
+        site = ConfigUtil.get(section='site')
+        cls.driver = browser()
+        cls.url = site['url']
+        cls.login_id = site['login_id']
+        cls.company_id = site['company_id']
 
-	def tearDown(self):
-		self.driver.quit()
+    def tearDown(self):
+        self.driver.quit()
