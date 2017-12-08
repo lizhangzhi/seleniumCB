@@ -3,7 +3,6 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
-from time import sleep
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
@@ -31,8 +30,14 @@ class BasePage(object):
     # 重写元素定位方法
     def find_element(self, loc):
         try:
-            return WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+            element = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
                 .until(EC.visibility_of_element_located(loc))
+            if element:
+                return element
+            else:
+                elements = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                    .until(EC.visibility_of_all_elements_located(loc))
+                return elements[0] if elements else False
         except Exception:
             print("page {0} can't find locator {1}".format(self.driver.current_url, loc))
 

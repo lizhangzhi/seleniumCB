@@ -1,5 +1,6 @@
 from Util import *
 from test_case.src.cb.payments.paymentsPage import PaymentPage
+from time import sleep
 
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
