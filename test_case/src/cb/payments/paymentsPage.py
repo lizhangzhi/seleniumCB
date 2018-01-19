@@ -27,12 +27,9 @@ class PaymentPage(BasePage):
 
     # UX
     frame_loc = (By.ID, 'iframe1')
-    country_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname= 'countrySelected']")
-    country_value_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname= 'countrySelected']/div/div[2]/div[1]/span")
+
     account_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='payer']")
     account_value_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='payer']/div/div[2]/div[2]/span")
-    type_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='ptnbnkPmtSelect']")
-    type_value_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='ptnbnkPmtSelect']/div/div[2]/div[4]/span")
     beneficiary_ux_loc = (By.XPATH, "//div[@class='payee-list']/filter-item-component[1]/section/div/div/div/button")
     amount_ux_loc = (By.XPATH, "//dbs-input[@formcontrolname='payeeAmount']/span/div/input")
     next_button_ux_loc = (By.XPATH, "//button[@translate = 'labelPreviewTransfer']")
@@ -75,19 +72,9 @@ class PaymentPage(BasePage):
     def switch_to_frame(self, out=False):
         self.switch_frame(self.frame_loc, out)
 
-    def select_country_ux(self):
-        self.find_element(self.country_ux_loc).click()
-        # sleep(1)
-        self.find_element(self.country_value_ux_loc).click()
-
     def select_account_ux(self):
         self.find_element(self.account_ux_loc).click()
-        # sleep(1)
         self.find_element(self.account_value_ux_loc).click()
-
-    def select_type_ux(self):
-        self.find_element(self.type_ux_loc).click()
-        self.find_element(self.type_value_ux_loc).click()
 
     def select_beneficiary_ux(self):
         self.find_element(self.beneficiary_ux_loc).click()
@@ -119,7 +106,7 @@ class PaymentPage(BasePage):
         reference_loc = (By.LINK_TEXT, reference)
         self.find_element(reference_loc).click()
 
-    # approve
+    # approve UX
     def click_approve_button_ux(self):
         self.find_element(self.approve_button_ux_loc).click()
 
@@ -132,16 +119,20 @@ class PaymentPage(BasePage):
     def get_approve_success_message_ux(self):
         return self.find_element(self.approve_success_message_ux_loc).text
 
-    # edit
+    # edit UX
     def click_edit_icon_ux(self):
         self.find_element(self.edit_icon_ux_loc).click()
 
-    payee_ux_loc = (By.XPATH, "//div[@class='payee-list']/div[3]/p")
+    # login
+    def login_cb(self, url, login_id, company_id):
+        login = LoginPage(self.driver)
+        login.logincb(url, login_id, company_id)
 
-    def get_payee_confidential_ux(self):
-        return self.find_element(self.payee_ux_loc).text
-
-    item_ux_loc = (By.XPATH, "//div[@class='payee-list']/filter-item-component/section")
-
-    def get_payee_list_ux(self):
-        return self.find_element(self.item_ux_loc)
+    # to view page
+    def get_to_view_payment_page(self, instruction_id):
+        payment_page = PaymentPage(self.driver)
+        payment_page.open_menu("Payments", "Transfer Center")
+        payment_page.click_filter_button()
+        payment_page.enter_reference(instruction_id)
+        payment_page.click_go_button()
+        payment_page.click_reference_link(instruction_id)
