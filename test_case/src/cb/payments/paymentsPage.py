@@ -38,6 +38,11 @@ class PaymentPage(BasePage):
     # ux
     submit_button_ux_loc = (By.XPATH, "//button[@translate = 'labelSubmit']")
 
+# Save as Template
+    # old ui
+    save_as_template_checkbox_loc = (By.ID, 'saveAsTemplate')
+    template_name_loc = (By.ID, 'templateName')
+
 # Approve
     # old ui
     approve_payment_button_loc = (By.ID, 'approveButton_Link')
@@ -120,6 +125,11 @@ class PaymentPage(BasePage):
     # ux
     def click_submit_button_ux(self):
         self.find_element(self.submit_button_ux_loc).click()
+
+# Save as Template
+    def click_save_as_template_checkbox(self, value):
+        self.find_element(self.save_as_template_checkbox_loc).click()
+        self.find_element(self.template_name_loc).send_keys(value)
 
 # Approve
     # old ui
