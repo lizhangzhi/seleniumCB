@@ -39,11 +39,17 @@ class PaymentPage(BasePage):
     submit_button_ux_loc = (By.XPATH, "//button[@translate = 'labelSubmit']")
 
 # Approve
+    # old ui
+    approve_payment_button_loc = (By.ID, 'approveButton_Link')
     # ux
     approve_button_ux_loc = (By.XPATH, "//div[@class='form-group no-print']/div/button[5]")
     challenge_button_ux_loc = (By.XPATH, "//*[@class='challenge-button-get']/button")
     response_ux_loc = (By.XPATH, "//dbs-input[@name='responseCode']/span/div/input")
     approve_success_message_ux_loc = (By.XPATH, "//md-dialog-container[@class='mat-dialog-container']")
+# Approve Now
+    # old ui
+    approve_now_checkbox_loc = (By.ID, 'approvalChoice_B')
+    approve_now_response_loc = (By.ID, 'signature')
 
 # Edit
     # old ui
@@ -116,6 +122,10 @@ class PaymentPage(BasePage):
         self.find_element(self.submit_button_ux_loc).click()
 
 # Approve
+    # old ui
+    def click_approve_payment_button(self):
+        self.find_element(self.approve_payment_button_loc).click()
+
     # ux
     def click_approve_button_ux(self):
         self.find_element(self.approve_button_ux_loc).click()
@@ -128,6 +138,14 @@ class PaymentPage(BasePage):
 
     def get_approve_success_message_ux(self):
         return self.find_element(self.approve_success_message_ux_loc).text
+
+# Approve Now
+    # old ui
+    def click_approve_now_checkbox(self):
+        self.find_element(self.approve_now_checkbox_loc).click()
+
+    def enter_approve_now_response(self, value):
+        self.find_element(self.approve_now_response_loc).send_keys(value)
 
 # Copy
     # old ui

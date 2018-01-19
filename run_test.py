@@ -63,7 +63,7 @@ if __name__ == '__main__':
     runner = HTMLTestRunner(stream=fp, title='IDEAL3 automated test report', description='Windows10    Firefox')
     # runner = unittest.TextTestRunner()
     # 用discover通过标准加载测试用例
-    discover = unittest.defaultTestLoader.discover('../test_case/', pattern='*_sta.py', top_level_dir=None)
+    discover = unittest.defaultTestLoader.discover('../test_case/', pattern='*_sta_test.py', top_level_dir=None)
     runner.run(discover)
     fp.close()
     # new_file = new_report()

@@ -51,18 +51,18 @@ class TelegraphicTransferTest(MyUnittest):
         telegraphic_transfer.click_submit_button()
 
     def test_1_create_TT(self):
-        # function.take_screenshot(self.driver, 'create tt.jpg')
+        # function.take_screenshot(self.driver, 'create_tt.jpg')
         self.create_TT()
         self.assertIn('has been created successfully', self.success_message)
 
     def test_2_copy_TT(self):
         self.create_TT()
         self.copy_TT()
-        # function.take_screenshot(self.driver, 'create tt.jpg')
+        # function.take_screenshot(self.driver, 'copy_tt.jpg')
         self.assertIn('has been created successfully', self.success_message)
 
     def test_3_edit_TT(self):
         self.create_TT()
         self.edit_TT()
-        # function.take_screenshot(self.driver, 'create tt.jpg')
+        # function.take_screenshot(self.driver, 'edit_tt.jpg')
         self.assertIn('has been modified successfully', self.success_message)
