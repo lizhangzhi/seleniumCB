@@ -13,7 +13,6 @@ __author__ = 'lizhangzhi'
 class TelegraphicTransferTest(MyUnittest):
 
     def create_TT(self):
-
         telegraphic_transfer = TelegraphicTransferPage(self.driver)
         telegraphic_transfer.login_cb(self.url, self.login_id, self.company_id)
         sleep(5)
@@ -29,8 +28,41 @@ class TelegraphicTransferTest(MyUnittest):
         telegraphic_transfer.scroll_down()
         telegraphic_transfer.click_submit_button()
         self.success_message = telegraphic_transfer.get_success_message()
+        self.instruction_id = telegraphic_transfer.get_success_message().split()[2]
 
-    def test_createTT(self):
+    def copy_TT(self):
+        telegraphic_transfer = TelegraphicTransferPage(self.driver)
+        telegraphic_transfer.login_cb(self.url, self.login_id, self.company_id)
+        sleep(5)
+        telegraphic_transfer.get_to_view_payment_page(self.instruction_id)
+        telegraphic_transfer.click_copy_button()
+        telegraphic_transfer.enter_payment_details('Copy From TT')
+        telegraphic_transfer.click_preview_button()
+        telegraphic_transfer.click_submit_button()
+
+    def edit_TT(self):
+        telegraphic_transfer = TelegraphicTransferPage(self.driver)
+        telegraphic_transfer.login_cb(self.url, self.login_id, self.company_id)
+        sleep(5)
+        telegraphic_transfer.get_to_view_payment_page(self.instruction_id)
+        telegraphic_transfer.click_edit_button()
+        telegraphic_transfer.enter_payment_details('Edit TT')
+        telegraphic_transfer.click_preview_button()
+        telegraphic_transfer.click_submit_button()
+
+    def test_1_create_TT(self):
         # function.take_screenshot(self.driver, 'create tt.jpg')
         self.create_TT()
         self.assertIn('has been created successfully', self.success_message)
+
+    def test_2_copy_TT(self):
+        self.create_TT()
+        self.copy_TT()
+        # function.take_screenshot(self.driver, 'create tt.jpg')
+        self.assertIn('has been created successfully', self.success_message)
+
+    def test_3_edit_TT(self):
+        self.create_TT()
+        self.edit_TT()
+        # function.take_screenshot(self.driver, 'create tt.jpg')
+        self.assertIn('has been modified successfully', self.success_message)
