@@ -65,11 +65,14 @@ class BasePage(object):
             print("page {0} execute script {1} fail".format(self.driver.current_url, script))
 
     # 重写跳转到frame页面的方法
-    def switch_frame(self, loc):
-        try:
-            return self.driver.switch_to_frame(self.find_element(loc))
-        except Exception:
-            print("page {0} can't switch to this frame page {1}".format(self.driver.current_url, loc))
+    def switch_frame(self, loc, out):
+        if out is True:
+            self.driver.switch_to_default_content()
+        else:
+            try:
+                return self.driver.switch_to_frame(self.find_element(loc))
+            except Exception:
+                print("page {0} can't switch to this frame page {1}".format(self.driver.current_url, loc))
     
     # 重写跳转到window的方法
     def switch_window(self, loc):
