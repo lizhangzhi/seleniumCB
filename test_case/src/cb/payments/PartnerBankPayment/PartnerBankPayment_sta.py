@@ -5,7 +5,7 @@ from time import sleep
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
-@file: PartnerBankPayment_sta_test.py
+@file: PartnerBankPayment_sta.py
 @time: 2018/1/17 14:22
 '''
 

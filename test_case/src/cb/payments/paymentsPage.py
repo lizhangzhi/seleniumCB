@@ -16,7 +16,6 @@ class PaymentPage(BasePage):
     amount_loc = (By.ID, 'amount_value_control')
     beneficiary_loc = (By.ID, 'toParty')
     preview_button_loc = (By.ID, 'previewButton_Link')
-    instruction_to_DBS_Bank_loc = (By.ID, 'messageToBank')
     submit_button_loc = (By.ID, 'submitButton_Link')
     success_message_loc = (By.ID, 'my_list')
 
@@ -55,9 +54,6 @@ class PaymentPage(BasePage):
 
     def select_beneficiary(self):
         self.select_dropdown(self.beneficiary_loc).select_by_index(2)
-
-    def enter_instruction(self, value):
-        self.find_element(self.instruction_to_DBS_Bank_loc).send_keys(value)
 
     def click_preview_button(self):
         self.find_element(self.preview_button_loc).click()
