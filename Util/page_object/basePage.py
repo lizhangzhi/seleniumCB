@@ -109,7 +109,7 @@ class BasePage(object):
 
     # 向上移动浏览器滚动条
     def scroll_down(self):
-        self.script("window.scrollBy(0, 1000)")
+        self.script("window.scrollBy(0, 2000)")
 
     # 封装打开菜单的方法
     def open_menu(self, level1_menu, level2_menu):

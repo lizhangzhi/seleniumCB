@@ -43,6 +43,14 @@ class PaymentPage(BasePage):
     save_as_template_checkbox_loc = (By.ID, 'saveAsTemplate')
     template_name_loc = (By.ID, 'templateName')
 
+# Delete
+    # old ui
+    delete_button_loc = (By.ID, 'deleteButton_Link')
+
+# Reject
+    # old ui
+    reject_button_loc = (By.ID, 'rejectButton_Link')
+
 # Approve
     # old ui
     approve_payment_button_loc = (By.ID, 'approveButton_Link')
@@ -131,6 +139,16 @@ class PaymentPage(BasePage):
     def click_save_as_template_checkbox(self, value):
         self.find_element(self.save_as_template_checkbox_loc).click()
         self.find_element(self.template_name_loc).send_keys(value)
+
+# Delete
+    # old ui
+    def click_delete_button_loc(self):
+        self.find_element(self.delete_button_loc).click()
+
+# Reject
+    # old ui
+    def click_reject_button(self):
+        self.find_element(self.reject_button_loc).click()
 
 # Approve
     # old ui
