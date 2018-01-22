@@ -58,7 +58,8 @@ class PaymentPage(BasePage):
 
 # Edit
     # old ui
-    edit_button_loc = (By.ID, "modifyButton_Link")
+    edit_button_loc = (By.XPATH, "//*[@id='modifyButton_Link']/span[2]")
+    preview_button_edit_page_loc = (By.XPATH, "//*[@class='ctrlBtnGrp']/a[3]")
     # ux
     edit_icon_ux_loc = (By.XPATH, "//label[@translate='labelEdit']")
 
@@ -81,8 +82,8 @@ class PaymentPage(BasePage):
     def enter_amount(self, value):
         self.find_element(self.amount_loc).send_keys(value)
 
-    def select_beneficiary(self):
-        self.select_dropdown(self.beneficiary_loc).select_by_index(2)
+    def select_beneficiary(self, number):
+        self.select_dropdown(self.beneficiary_loc).select_by_index(number)
 
     def enter_payment_details(self, value):
         self.find_element(self.payment_details_loc).send_keys(value)
@@ -166,6 +167,9 @@ class PaymentPage(BasePage):
     # old ui
     def click_edit_button(self):
         self.find_element(self.edit_button_loc).click()
+
+    def click_preview_on_edit_page(self):
+        self.find_element(self.preview_button_edit_page_loc).click()
 
     # ux
     def click_edit_icon_ux(self):
