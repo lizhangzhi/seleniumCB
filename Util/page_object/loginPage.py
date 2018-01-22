@@ -16,21 +16,27 @@ class LoginPage(BasePage):
     cbBtn_loc = (By.NAME, "submit_sbuserLogin")
     nextBtn_loc = (By.ID, "previewButton_Link")
 
-    def type_loginid(self, loginid):
+    dashboard_welcome_loc = (By.XPATH, "//*[@class='container-fluid']/div/div/div/span[1]")
+
+    def type_login_id(self, loginid):
         self.find_element(self.loginId_loc).send_keys(loginid)
 
-    def type_companyid(self, companyid):
+    def type_company_id(self, companyid):
         self.find_element(self.companyId_loc).send_keys(companyid)
 
-    def click_cbbutton(self):
+    def click_cb_button(self):
         self.find_element(self.cbBtn_loc).click()
 
-    def click_nextbutton(self):
+    def click_next_button(self):
         self.find_element(self.nextBtn_loc).click()
+
+    def wait_dashboard_load(self):
+        self.find_element(self.dashboard_welcome_loc)
 
     def logincb(self, url, loginid, companyid):
         self.open(url)
-        self.type_loginid(loginid)
-        self.type_companyid(companyid)
-        self.click_cbbutton()
-        self.click_nextbutton()
+        self.type_login_id(loginid)
+        self.type_company_id(companyid)
+        self.click_cb_button()
+        self.click_next_button()
+        self.wait_dashboard_load()
