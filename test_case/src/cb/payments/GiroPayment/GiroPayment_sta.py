@@ -5,7 +5,7 @@ from time import sleep
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
-@file: GiroPayment_sta_test.py
+@file: GiroPayment_sta.py
 @time: 2018/1/22 10:25
 '''
 
@@ -19,10 +19,10 @@ class GiroPaymentTest(MyUnittest):
         giro_payment.select_from_account('LEONA ALBRECHT - 0018001843 - SGD')
         giro_payment.enter_amount('10')
         giro_payment.select_beneficiary(3)
-        giro_payment.scroll_down()
+        giro_payment.scroll_up_and_down(0, 1000)
         giro_payment.click_preview_button()
         sleep(3)
-        giro_payment.scroll_down()
+        giro_payment.scroll_up_and_down(0, 1000)
         giro_payment.click_submit_button()
         self.success_message = giro_payment.get_success_message()
         self.instruction_id = giro_payment.get_success_message().split()[2]
@@ -31,10 +31,10 @@ class GiroPaymentTest(MyUnittest):
         giro_payment = GiroPaymentPage(self.driver)
         giro_payment.get_to_view_payment_page(self.instruction_id)
         sleep(5)
-        giro_payment.scroll_down()
+        giro_payment.scroll_up_and_down(0, 1000)
         giro_payment.click_reject_button()
         sleep(5)
-        giro_payment.scroll_down()
+        giro_payment.scroll_up_and_down(0, 1000)
         giro_payment.click_submit_button()
         self.success_message = giro_payment.get_success_message()
 
@@ -42,10 +42,10 @@ class GiroPaymentTest(MyUnittest):
         giro_payment = GiroPaymentPage(self.driver)
         giro_payment.get_to_view_payment_page(self.instruction_id)
         sleep(5)
-        giro_payment.scroll_down()
+        giro_payment.scroll_up_and_down(0, 1000)
         giro_payment.click_delete_button_loc()
         sleep(3)
-        giro_payment.scroll_down()
+        giro_payment.scroll_up_and_down(0, 1000)
         giro_payment.click_submit_button()
         self.success_message = giro_payment.get_success_message()
 
@@ -53,7 +53,7 @@ class GiroPaymentTest(MyUnittest):
         giro_payment = GiroPaymentPage(self.driver)
         giro_payment.get_to_view_payment_page(self.instruction_id)
         sleep(5)
-        giro_payment.scroll_down()
+        giro_payment.scroll_up_and_down(0, 1000)
         giro_payment.click_approve_payment_button()
         giro_payment.enter_approve_now_response('response')
         giro_payment.click_submit_button()

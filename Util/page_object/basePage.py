@@ -103,13 +103,9 @@ class BasePage(object):
         except Exception:
             print("page {0} can't find locator {1} or element {2}".format(self.driver.current_url, loc, element))
 
-    # 向上移动浏览器滚动条
-    def scroll_up(self):
-        self.script("window.scrollBy(0, 0)")
-
-    # 向上移动浏览器滚动条
-    def scroll_down(self):
-        self.script("window.scrollBy(0, 2000)")
+    # 通过输入像素来控制页面左右移和上下移
+    def scroll_up_and_down(self, up_distance, down_distance):
+        self.script("window.scrollBy(%u, %u)" % (up_distance, down_distance))
 
     # 封装打开菜单的方法
     def open_menu(self, level1_menu, level2_menu):

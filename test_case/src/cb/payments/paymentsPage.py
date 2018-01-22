@@ -66,7 +66,7 @@ class PaymentPage(BasePage):
 
 # Edit
     # old ui
-    edit_button_loc = (By.XPATH, "//*[@id='modifyButton_Link']/span[2]")
+    edit_button_loc = (By.XPATH, "//*[@id='modifyButton_Link']")
     preview_button_edit_page_loc = (By.XPATH, "//*[@class='ctrlBtnGrp']/a[3]")
     # ux
     edit_icon_ux_loc = (By.XPATH, "//label[@translate='labelEdit']")
