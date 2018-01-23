@@ -35,7 +35,7 @@ class TelegraphicTransferTest(MyUnittest):
         sleep(5)
         telegraphic_transfer.scroll_up_and_down(0, 2000)
         telegraphic_transfer.click_copy_button()
-        sleep(3)
+        sleep(6)
         telegraphic_transfer.enter_payment_details('Copy From TT')
         telegraphic_transfer.scroll_up_and_down(0, 2000)
         telegraphic_transfer.click_preview_button()

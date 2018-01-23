@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62ae28b5-744c-4e84-b441-c6ba613a2753" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Util/page_object/basePage.py" afterPath="$PROJECT_DIR$/Util/page_object/basePage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/src/cb/payments/paymentsPage.py" afterPath="$PROJECT_DIR$/test_case/src/cb/payments/paymentsPage.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +19,7 @@
     <SUITE FILE_PATH="coverage/seleniumCB$login_sta.coverage" NAME="Test Coverage Results" MODIFIED="1502790477296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/seleniumCB$Test.coverage" NAME="Test Coverage Results" MODIFIED="1503372247732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/autotestcb$login_sta.coverage" NAME="login_sta Coverage Results" MODIFIED="1502188222644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/seleniumCB$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1516610231231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
+    <SUITE FILE_PATH="coverage/seleniumCB$run_test.coverage" NAME="run_test Coverage Results" MODIFIED="1516688387756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/seleniumCB$configUtil.coverage" NAME="run_test Coverage Results" MODIFIED="1512037444272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
   </component>
   <component name="DatabaseView">
@@ -41,18 +40,28 @@
       <file leaf-file-name="paymentsPage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/paymentsPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="50" />
+            <state relative-caret-position="133">
+              <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GiroPaymentPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPaymentPage.py">
+      <file leaf-file-name="PartnerBankPayment_sta.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPayment_sta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="129">
+              <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartnerBankPaymentPage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPaymentPage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -60,21 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TelegraphicTransfer_sta.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="62" column="73" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="run_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="run_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="65" column="82" lean-forward="false" selection-start-line="65" selection-start-column="82" selection-end-line="65" selection-end-column="82" />
+            <state relative-caret-position="366">
+              <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -85,10 +84,32 @@
       <file leaf-file-name="GiroPayment_sta.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPayment_sta.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="69" selection-end-column="28" />
+            <state relative-caret-position="-76">
+              <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TelegraphicTransfer_sta.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="basePage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Util/page_object/basePage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,8 +126,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>case result</find>
-      <find>'https://116.12.252.152/s1gcb/logon/loginSSO'</find>
       <find>url</find>
       <find>find</find>
       <find>PAGE</find>
@@ -116,7 +135,6 @@
       <find>sleep</find>
       <find>chrome</find>
       <find>select_country</find>
-      <find>scroll</find>
       <find>switch</find>
       <find>partner_bank_payment</find>
       <find>self.partner_bank_payment</find>
@@ -135,6 +153,9 @@
       <find>DELETE</find>
       <find>approve</find>
       <find>response</find>
+      <find>scroll_dow</find>
+      <find>scroll</find>
+      <find>scroll_u</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -151,7 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/blankfile.py" />
         <option value="$PROJECT_DIR$/test_case/src/sam/blankfile.py" />
         <option value="$PROJECT_DIR$/test_case/src/login_sta.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTransfer/TelegraphicTransfer_sta.py" />
@@ -184,24 +204,25 @@
         <option value="$PROJECT_DIR$/Util/commonTool/driver.py" />
         <option value="$PROJECT_DIR$/config/cb.yml" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/__init__.py" />
-        <option value="$PROJECT_DIR$/Util/page_object/loginPage.py" />
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPayment_sta_test.py" />
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPaymentPage.py" />
         <option value="$PROJECT_DIR$/Util/commonTool/function.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransferPage.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/__init__.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/FastPaymentPage.py" />
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/FastPayment_sta_test.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPaymentPage.py" />
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPayment_sta.py" />
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/FastPayment_sta.py" />
-        <option value="$PROJECT_DIR$/Util/page_object/basePage.py" />
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta_test.py" />
-        <option value="$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/__init__.py" />
+        <option value="$PROJECT_DIR$/Util/page_object/loginPage.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/FastPayment_sta_test.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/FastPayment_sta.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/paymentsPage.py" />
+        <option value="$PROJECT_DIR$/Util/page_object/basePage.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPaymentPage.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPayment_sta_test.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPayment_sta.py" />
         <option value="$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPayment_sta_test.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPayment_sta.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta_test.py" />
         <option value="$PROJECT_DIR$/run_test.py" />
+        <option value="$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta.py" />
       </list>
     </option>
   </component>
@@ -492,6 +513,10 @@
               <option name="myItemId" value="report" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -502,7 +527,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Protractor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Taffy" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -760,7 +785,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27903226" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2548387" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26935485" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26935485" sideWeight="0.4969743" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27580646" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28214827" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -818,7 +843,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="114" />
+      <option name="time" value="118" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
@@ -827,7 +852,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/remote_test.py" />
     <entry file="file://$PROJECT_DIR$/try.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/support/select.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -926,13 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="348" column="17" lean-forward="false" selection-start-line="348" selection-start-column="17" selection-end-line="348" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Util/commonTool/driver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -993,31 +1010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Util/commonTool/function.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Util/page_object/loginPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPaymentPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="21" column="24" lean-forward="false" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1033,25 +1025,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPayment_sta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="38" column="38" lean-forward="false" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/support/wait.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="257">
           <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Util/page_object/basePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -1092,28 +1069,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/FastPayment_sta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="67" column="97" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="97" />
-          <folding>
-            <element signature="e#0#18#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="62" column="73" lean-forward="false" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="73" />
           <folding />
         </state>
       </provider>
@@ -1131,25 +1090,7 @@
         <state relative-caret-position="-38">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/paymentsPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="36" column="50" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPayment_sta.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="69" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1162,13 +1103,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Util/commonTool/function.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/page_object/loginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/FastPayment/FastPayment_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/image/edit_telegraphic_transfer.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="72" column="8" lean-forward="false" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPaymentPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/PartnerBankPayment/PartnerBankPayment_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="78" column="48" lean-forward="false" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/GiroPayment/GiroPayment_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-76">
+          <caret line="53" column="28" lean-forward="false" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/paymentsPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="95" column="8" lean-forward="false" selection-start-line="95" selection-start-column="8" selection-end-line="95" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/run_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="65" column="82" lean-forward="false" selection-start-line="65" selection-start-column="82" selection-end-line="65" selection-end-column="82" />
+        <state relative-caret-position="366">
+          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Util/page_object/basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="107" column="44" lean-forward="false" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/src/cb/payments/TelegraphicTansfer/TelegraphicTransfer_sta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="64" column="27" lean-forward="false" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
