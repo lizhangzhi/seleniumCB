@@ -70,7 +70,9 @@ class BasePage(object):
             self.driver.switch_to_default_content()
         else:
             try:
-                return self.driver.switch_to_frame(self.find_element(loc))
+                return WebDriverWait(self.driver, self.timeout, self.poll_frequency) \
+                    .until(EC.frame_to_be_available_and_switch_to_it(loc))
+                # return self.driver.switch_to_frame(self.find_element(loc))
             except Exception:
                 print("page {0} can't switch to this frame page {1}".format(self.driver.current_url, loc))
     
