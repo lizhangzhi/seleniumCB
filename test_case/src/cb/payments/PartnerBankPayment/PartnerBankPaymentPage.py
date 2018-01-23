@@ -21,6 +21,8 @@ class PartnerBankPaymentPage(PaymentPage):
     payee_ux_loc = (By.XPATH, "//div[@class='payee-list']/div[3]/p")
     # Payee部分有显示payee的定位
     item_ux_loc = (By.XPATH, "//div[@class='payee-list']/filter-item-component/section")
+    # hash value字段定位
+    hash_value_loc = (By.XPATH, "//*[@translate='bulk.labelHashValue4PtnBnk']")
 
     def select_country_ux(self):
         self.find_element(self.country_ux_loc).click()
@@ -35,3 +37,6 @@ class PartnerBankPaymentPage(PaymentPage):
 
     def get_payee_list_ux(self):
         return self.find_element(self.item_ux_loc)
+
+    def wait_view_page_load(self):
+        self.find_element(self.hash_value_loc)
