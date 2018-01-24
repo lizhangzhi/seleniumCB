@@ -25,12 +25,12 @@ class PartnerBankPaymentPage(PaymentPage):
     hash_value_loc = (By.XPATH, "//*[@translate='bulk.labelHashValue4PtnBnk']")
 
     def select_country_ux(self):
-        self.find_element(self.country_ux_loc).click()
-        self.find_element(self.country_value_ux_loc).click()
+        self.find_element(self.country_ux_loc, clickable=True).click()
+        self.find_element(self.country_value_ux_loc, clickable=True).click()
 
     def select_type_ux(self):
-        self.find_element(self.type_ux_loc).click()
-        self.find_element(self.type_value_ux_loc).click()
+        self.find_element(self.type_ux_loc, clickable=True).click()
+        self.find_element(self.type_value_ux_loc, clickable=True).click()
 
     def get_payee_confidential_ux(self):
         return self.find_element(self.payee_ux_loc).text

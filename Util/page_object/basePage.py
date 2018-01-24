@@ -28,10 +28,14 @@ class BasePage(object):
         self._open(url)
 
     # 重写元素定位方法
-    def find_element(self, loc):
+    def find_element(self, loc, clickable=False):
         try:
-            element = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
-                .until(EC.visibility_of_element_located(loc))
+            if clickable:
+                element = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                    .until(EC.element_to_be_clickable(loc))
+            else:
+                element = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                    .until(EC.visibility_of_element_located(loc))
             if element:
                 return element
             else:

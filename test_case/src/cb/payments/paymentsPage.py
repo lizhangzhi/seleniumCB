@@ -29,6 +29,7 @@ class PaymentPage(BasePage):
 # Preview
     # old ui
     preview_button_loc = (By.ID, 'previewButton_Link')
+    page_title_loc = (By.XPATH, "//*[@slid='pageHeadlineDisplay']")
     # ux
     next_button_ux_loc = (By.XPATH, "//button[@translate = 'labelPreviewTransfer']")
 
@@ -104,11 +105,11 @@ class PaymentPage(BasePage):
         self.switch_frame(self.frame_loc, out)
 
     def select_account_ux(self):
-        self.find_element(self.account_ux_loc).click()
-        self.find_element(self.account_value_ux_loc).click()
+        self.find_element(self.account_ux_loc, clickable=True).click()
+        self.find_element(self.account_value_ux_loc, clickable=True).click()
 
     def select_beneficiary_ux(self):
-        self.find_element(self.beneficiary_ux_loc).click()
+        self.find_element(self.beneficiary_ux_loc, clickable=True).click()
 
     def enter_amount_ux(self, value):
         self.find_element(self.amount_ux_loc).clear()
@@ -120,47 +121,50 @@ class PaymentPage(BasePage):
 # Preview
     # old ui
     def click_preview_button(self):
-        self.find_element(self.preview_button_loc).click()
+        self.find_element(self.preview_button_loc, clickable=True).click()
+
+    def wait_page_load(self):
+        self.find_element(self.page_title_loc)
 
     # ux
     def click_next_button_ux(self):
-        self.find_element(self.next_button_ux_loc).click()
+        self.find_element(self.next_button_ux_loc, clickable=True).click()
 
 # Submit
     # old ui
     def click_submit_button(self):
-        self.find_element(self.submit_button_loc).click()
+        self.find_element(self.submit_button_loc, clickable=True).click()
 
     # ux
     def click_submit_button_ux(self):
-        self.find_element(self.submit_button_ux_loc).click()
+        self.find_element(self.submit_button_ux_loc, clickable=True).click()
 
 # Save as Template
     def click_save_as_template_checkbox(self, value):
-        self.find_element(self.save_as_template_checkbox_loc).click()
+        self.find_element(self.save_as_template_checkbox_loc, clickable=True).click()
         self.find_element(self.template_name_loc).send_keys(value)
 
 # Delete
     # old ui
     def click_delete_button_loc(self):
-        self.find_element(self.delete_button_loc).click()
+        self.find_element(self.delete_button_loc, clickable=True).click()
 
 # Reject
     # old ui
     def click_reject_button(self):
-        self.find_element(self.reject_button_loc).click()
+        self.find_element(self.reject_button_loc, clickable=True).click()
 
 # Approve
     # old ui
     def click_approve_payment_button(self):
-        self.find_element(self.approve_payment_button_loc).click()
+        self.find_element(self.approve_payment_button_loc, clickable=True).click()
 
     # ux
     def click_approve_button_ux(self):
-        self.find_element(self.approve_button_ux_loc).click()
+        self.find_element(self.approve_button_ux_loc, clickable=True).click()
 
     def click_challenge_button_ux(self):
-        self.find_element(self.challenge_button_ux_loc).click()
+        self.find_element(self.challenge_button_ux_loc, clickable=True).click()
 
     def enter_response_ux(self, value):
         self.find_element(self.response_ux_loc).send_keys(value)
@@ -171,7 +175,7 @@ class PaymentPage(BasePage):
 # Approve Now
     # old ui
     def click_approve_now_checkbox(self):
-        self.find_element(self.approve_now_checkbox_loc).click()
+        self.find_element(self.approve_now_checkbox_loc, clickable=True).click()
 
     def enter_approve_now_response(self, value):
         self.find_element(self.approve_now_response_loc).send_keys(value)
@@ -179,19 +183,19 @@ class PaymentPage(BasePage):
 # Copy
     # old ui
     def click_copy_button(self):
-        self.find_element(self.copy_button_loc).click()
+        self.find_element(self.copy_button_loc, clickable=True).click()
 
 # Edit
     # old ui
     def click_edit_button(self):
-        self.find_element(self.edit_button_loc).click()
+        self.find_element(self.edit_button_loc, clickable=True).click()
 
     def click_preview_on_edit_page(self):
-        self.find_element(self.preview_button_edit_page_loc).click()
+        self.find_element(self.preview_button_edit_page_loc, clickable=True).click()
 
     # ux
     def click_edit_icon_ux(self):
-        self.find_element(self.edit_icon_ux_loc).click()
+        self.find_element(self.edit_icon_ux_loc, clickable=True).click()
 
 # Login
     def login_cb(self, url, login_id, company_id):
@@ -200,17 +204,17 @@ class PaymentPage(BasePage):
 
 # Center
     def click_filter_button(self):
-        self.find_element(self.filter_button_loc).click()
+        self.find_element(self.filter_button_loc, clickable=True).click()
 
     def enter_reference(self, value):
         self.find_element(self.reference_loc).send_keys(value)
 
     def click_go_button(self):
-        self.find_element(self.go_button_loc).click()
+        self.find_element(self.go_button_loc, clickable=True).click()
 
     def click_reference_link(self, reference):
         reference_loc = (By.LINK_TEXT, reference)
-        self.find_element(reference_loc).click()
+        self.find_element(reference_loc, clickable=True).click()
 
 # To View Page
     def get_to_view_payment_page(self, instruction_id):

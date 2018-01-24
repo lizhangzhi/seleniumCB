@@ -25,10 +25,10 @@ class LoginPage(BasePage):
         self.find_element(self.companyId_loc).send_keys(companyid)
 
     def click_cb_button(self):
-        self.find_element(self.cbBtn_loc).click()
+        self.find_element(self.cbBtn_loc, clickable=True).click()
 
     def click_next_button(self):
-        self.find_element(self.nextBtn_loc).click()
+        self.find_element(self.nextBtn_loc, clickable=True).click()
 
     def wait_dashboard_load(self):
         self.find_element(self.dashboard_welcome_loc)

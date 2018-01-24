@@ -2,6 +2,7 @@
   <dictionary name="Lee">
     <words>
       <w>cbbutton</w>
+      <w>clickable</w>
       <w>companyid</w>
       <w>fromaccount</w>
       <w>geckodriver</w>
