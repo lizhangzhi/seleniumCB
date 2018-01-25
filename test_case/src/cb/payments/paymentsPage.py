@@ -20,8 +20,8 @@ class PaymentPage(BasePage):
 
 # UX
     frame_loc = (By.ID, 'iframe1')
-    account_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='payer']")
-    account_value_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='payer']/div/div[2]/div[2]/span")
+    account_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='fromAccount']")
+    account_value_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='fromAccount']/div/div[2]/div[2]/span")
     beneficiary_ux_loc = (By.XPATH, "//div[@class='payee-list']/filter-item-component[1]/section/div/div/div/button")
     amount_ux_loc = (By.XPATH, "//dbs-input[@formcontrolname='payeeAmount']/span/div/input")
     success_message_ux_loc = (By.XPATH, "//div[@class='alert alert-info']/ul/li/label")

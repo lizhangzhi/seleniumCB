@@ -36,6 +36,7 @@ class PartnerBankPaymentTest(MyUnittest):
         partner_bank_payment.get_to_view_payment_page(self.instruction_id)
         partner_bank_payment.switch_to_frame()
         partner_bank_payment.click_edit_icon_ux()
+        sleep(5)
         partner_bank_payment.enter_amount_ux('20')
         partner_bank_payment.scroll_up_and_down(0, 1000)
         partner_bank_payment.click_next_button_ux()
