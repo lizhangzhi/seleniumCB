@@ -54,6 +54,7 @@ def send_mail(file):
     server.sendmail(sender, receiver, msg.as_string())
     server.quit()
 
+
 if __name__ == '__main__':
 
     # 生成HTML报告
