@@ -5,7 +5,7 @@ from time import sleep
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
-@file: PartnerBankPayment_sta.py
+@file: PartnerBankPayment_sta_test.py
 @time: 2018/1/17 14:22
 '''
 
@@ -84,13 +84,13 @@ class PartnerBankPaymentTest(MyUnittest):
                       self.confidential_message)
 
     # 用有partner bank - confidential权限的user去view 别的user创建的partner bank -payroll
-    def test_3_viewTDT_by_confidential(self):
-        partner_bank_payment = PartnerBankPaymentPage(self.driver)
-        partner_bank_payment.login_cb(self.url, 'SG2BFE1S06', 'SG2BFE1')
-        self.create_TDT()
-        partner_bank_payment.login_cb(self.url, self.login_id, self.company_id)
-        partner_bank_payment.get_to_view_payment_page(self.instruction_id)
-        partner_bank_payment.switch_to_frame()
-        partner_bank_payment.wait_view_page_load()
-        function.take_screenshot(self.driver, 'confidential_to_view_partner_bank_payment.jpg')
-        self.assertTrue(partner_bank_payment.get_payee_list_ux())
+    # def test_3_viewTDT_by_confidential(self):
+    #     partner_bank_payment = PartnerBankPaymentPage(self.driver)
+    #     partner_bank_payment.login_cb(self.url, 'SG2BFE1S06', 'SG2BFE1')
+    #     self.create_TDT()
+    #     partner_bank_payment.login_cb(self.url, self.login_id, self.company_id)
+    #     partner_bank_payment.get_to_view_payment_page(self.instruction_id)
+    #     partner_bank_payment.switch_to_frame()
+    #     partner_bank_payment.wait_view_page_load()
+    #     function.take_screenshot(self.driver, 'confidential_to_view_partner_bank_payment.jpg')
+    #     self.assertTrue(partner_bank_payment.get_payee_list_ux())
