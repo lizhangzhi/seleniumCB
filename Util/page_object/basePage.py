@@ -74,7 +74,7 @@ class BasePage(object):
             self.driver.switch_to_default_content()
         else:
             try:
-                return WebDriverWait(self.driver, self.timeout, self.poll_frequency) \
+                return WebDriverWait(self.driver, 120, self.poll_frequency) \
                     .until(EC.frame_to_be_available_and_switch_to_it(loc))
                 # return self.driver.switch_to_frame(self.find_element(loc))
             except Exception:
