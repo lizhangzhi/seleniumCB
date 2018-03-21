@@ -62,17 +62,17 @@ class GiroPaymentTest(MyUnittest):
     def test_1_reject_LVT(self):
         self.create_LVT()
         self.reject_LVT()
-        function.take_screenshot(self.driver, 'reject_giro_payment.jpg')
+        function.take_screenshot(self.driver, '7_giro_payment_reject.jpg')
         self.assertIn('has been rejected successfully', self.success_message)
 
     def test_2_delete_LVT(self):
         self.create_LVT()
         self.delete_LVT()
-        function.take_screenshot(self.driver, 'delete_giro_payment.jpg')
+        function.take_screenshot(self.driver, '8_giro_payment_delete.jpg')
         self.assertIn('has been deleted successfully', self.success_message)
 
     def test_3_approve_LVT(self):
         self.create_LVT()
         self.approve_LVT()
-        function.take_screenshot(self.driver, 'approve_giro_payment.jpg')
+        function.take_screenshot(self.driver, '9_giro_payment_approve.jpg')
         self.assertIn('has been approved successfully', self.success_message)

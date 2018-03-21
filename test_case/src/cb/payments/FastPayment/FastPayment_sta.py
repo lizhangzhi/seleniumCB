@@ -61,16 +61,16 @@ class FastPaymentTest(MyUnittest):
 
     def test_1_create_approve_now_GPP(self):
         self.create_approve_now_GPP()
-        function.take_screenshot(self.driver, 'approve_now_fast_payment.jpg')
+        function.take_screenshot(self.driver, '2_fast_payment_approve_now.jpg')
         self.assertIn('has been created successfully with status Approved', self.success_message)
 
     def test_2_create_with_template_GPP(self):
         self.create_with_template_GPP()
-        function.take_screenshot(self.driver, 'create_with_template_fast_payment.jpg')
+        function.take_screenshot(self.driver, '3_fast_payment_create_with_template.jpg')
         self.assertIn('has been created successfully', self.success_message)
         self.assertIn('FAST Payment template', self.success_message)
 
     def test_3_save_as_draft_GPP(self):
         self.save_as_draft_GPP()
-        function.take_screenshot(self.driver, 'save_as_draft_fast_payment.jpg')
+        function.take_screenshot(self.driver, '6_fast_payment_save_as_draft.jpg')
         self.assertIn('has been created successfully with status Saved.', self.success_message)
