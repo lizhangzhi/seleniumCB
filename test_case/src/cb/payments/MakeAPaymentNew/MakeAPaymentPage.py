@@ -35,38 +35,5 @@ class MakeAPaymentPage(PaymentPage):
     next_button_ux_loc = (By.XPATH, "//button[@name = 'next']")
     # VN Telegraphic Transfer的Submit按钮定位
     submit_button_ux_loc = (By.XPATH, "//button[@name = 'submit']")
-
-    def select_account_ux(self, value):
-        self.find_element(self.account_ux_loc, clickable=True).click()
-        self.find_element(self.account_ux_loc, clickable=True).send_keys(value)
-        self.double_click(loc=self.account_value_ux_loc)
-
-    def select_payment_currency_ux(self, currency):
-        self.find_element(self.payment_currency_ux_loc, clickable=True).click()
-        self.find_element(self.payment_currency_textbox_ux_loc, clickable=True).send_keys(currency)
-        self.double_click(loc=self.payment_currency_value_ux_loc)
-
-    def enter_amount_ux(self, value):
-        self.find_element(self.amount_ux_loc, clickable=True).send_keys(value)
-
-    def select_beneficiary_ux(self, value):
-        self.find_element(self.beneficiary_ux_loc, clickable=True).click()
-        self.find_element(self.beneficiary_ux_loc, clickable=True).send_keys(value)
-        self.double_click(loc=self.beneficiary_value_ux_loc)
-        # self.find_element(self.beneficiary_value_ux_loc).click()
-
-    def select_purpose_code_ux(self):
-        self.find_element(self.purpose_code_ux_loc, clickable=True).click()
-        self.find_element(self.purpose_code_value_ux_loc).click()
-
-    def select_bank_charges_ux(self):
-        self.find_element(self.bank_charges_ux_loc, clickable=True).click()
-
-    def enter_payment_details_ux(self, value):
-        self.find_element(self.payment_details_ux_loc, clickable=True).send_keys(value)
-
-    def click_next_button_ux(self):
-        self.find_element(self.next_button_ux_loc, clickable=True).click()
-
-    def click_submit_button_ux(self):
-        self.find_element(self.submit_button_ux_loc, clickable=True).click()
+    # 等待create页面加载，定位
+    page_title_ux_loc = (By.XPATH, "//h1[@class='page-header']")
