@@ -1,6 +1,6 @@
 site:
   url: https://116.12.252.152/s1gcb/logon/loginSSO
-#  url: 'https://192.168.0.245:9444/s1gcb/logon/loginSSO'
+#  url: https://192.168.0.245:9444/s1gcb/logon/loginSSO
   login_id: 'SG2BFE1S11'
   company_id: 'SG2BFE1'
 
