@@ -10,6 +10,7 @@ __author__ = 'lizhangzhi'
 
 
 class PaymentPage(BasePage):
+
     # Old UI
     from_account_loc = (By.ID, 'fromParty')
     payment_currency_loc = (By.ID, 'paymentCurrency_currencyCode')
@@ -20,24 +21,19 @@ class PaymentPage(BasePage):
 
 # UX
     frame_loc = (By.ID, 'iframe1')
-    account_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='fromAccount']")
-    account_value_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname='fromAccount']/div/div[2]/div[2]/span")
-    beneficiary_ux_loc = (By.XPATH, "//div[@class='payee-list']/filter-item-component[1]/section/div/div/div/button")
-    amount_ux_loc = (By.XPATH, "//dbs-input[@formcontrolname='payeeAmount']/span/div/input")
     success_message_ux_loc = (By.XPATH, "//div[@class='alert alert-info']/ul/li/label")
 
 # Preview
     # old ui
     preview_button_loc = (By.ID, 'previewButton_Link')
-    page_title_loc = (By.XPATH, "//*[@slid='pageHeadlineDisplay']")
+    # page_title_loc = (By.XPATH, "//span[@slid='pageHeadlineDisplay']")
+    page_title_loc = (By.CLASS_NAME, "headertable")
     # ux
-    next_button_ux_loc = (By.XPATH, "//button[@translate = 'labelPreviewTransfer']")
 
 # Submit
     # old ui
     submit_button_loc = (By.ID, 'submitButton_Link')
     # ux
-    submit_button_ux_loc = (By.XPATH, "//button[@translate = 'labelSubmit']")
 
 # Save as Template
     # old ui
@@ -56,10 +52,8 @@ class PaymentPage(BasePage):
     # old ui
     approve_payment_button_loc = (By.ID, 'approveButton_Link')
     # ux
-    approve_button_ux_loc = (By.XPATH, "//div[@class='form-group no-print']/div/button[5]")
     challenge_button_ux_loc = (By.XPATH, "//*[@class='challenge-button-get']/button")
-    response_ux_loc = (By.XPATH, "//dbs-input[@name='responseCode']/span/div/input")
-    approve_success_message_ux_loc = (By.XPATH, "//md-dialog-container[@class='mat-dialog-container']")
+
 # Approve Now
     # old ui
     approve_now_checkbox_loc = (By.ID, 'approvalChoice_B')
@@ -70,7 +64,6 @@ class PaymentPage(BasePage):
     edit_button_loc = (By.XPATH, "//*[@id='modifyButton_Link']")
     preview_button_edit_page_loc = (By.XPATH, "//*[@class='ctrlBtnGrp']/a[3]")
     # ux
-    edit_icon_ux_loc = (By.XPATH, "//label[@translate='labelEdit']")
 
 # Copy
     # old UI
@@ -104,16 +97,38 @@ class PaymentPage(BasePage):
     def switch_to_frame(self, out=False):
         self.switch_frame(self.frame_loc, out)
 
-    def select_account_ux(self):
-        self.find_element(self.account_ux_loc, clickable=True).click()
-        self.find_element(self.account_value_ux_loc, clickable=True).click()
+    def select_account_ux(self, account_ux_loc, account_value_ux_loc, account_number):
+        self.find_element(account_ux_loc, clickable=True).click()
+        self.find_element(account_ux_loc, clickable=True).send_keys(account_number)
+        self.find_element(account_value_ux_loc, clickable=True).click()
 
-    def select_beneficiary_ux(self):
-        self.find_element(self.beneficiary_ux_loc, clickable=True).click()
+    def select_payment_currency_ux(self, currency_ux_loc, currency_textbox_ux_loc, currency_value_ux_loc, currency):
+        self.find_element(currency_ux_loc, clickable=True).click()
+        self.find_element(currency_textbox_ux_loc, clickable=True).send_keys(currency)
+        self.double_click(loc=currency_value_ux_loc)
 
-    def enter_amount_ux(self, value):
-        self.find_element(self.amount_ux_loc).clear()
-        self.find_element(self.amount_ux_loc).send_keys(value)
+    def select_beneficiary_bulk_ux(self, beneficiary_ux_loc):
+        self.find_element(beneficiary_ux_loc, clickable=True).click()
+
+    def select_beneficiary_single_ux(self, beneficiary_ux_loc, beneficiary_value_ux_loc, value):
+        self.find_element(beneficiary_ux_loc, clickable=True).click()
+        self.find_element(beneficiary_ux_loc, clickable=True).send_keys(value)
+        self.double_click(loc=beneficiary_value_ux_loc)
+        # self.find_element(self.beneficiary_value_ux_loc).click()
+
+    def enter_amount_ux(self, amount_ux_loc, value):
+        self.find_element(amount_ux_loc).clear()
+        self.find_element(amount_ux_loc).send_keys(value)
+
+    def select_purpose_code_ux(self, purpose_code_ux_loc, purpose_code_value_ux_loc):
+        self.find_element(purpose_code_ux_loc, clickable=True).click()
+        self.find_element(purpose_code_value_ux_loc).click()
+
+    def select_bank_charges_ux(self, bank_charges_ux_loc):
+        self.find_element(bank_charges_ux_loc, clickable=True).click()
+
+    def enter_payment_details_ux(self, payment_details_ux_loc, value):
+        self.find_element(payment_details_ux_loc, clickable=True).send_keys(value)
 
     def get_success_message_ux(self):
         return self.find_element(self.success_message_ux_loc).text
@@ -127,8 +142,11 @@ class PaymentPage(BasePage):
         self.find_element(self.page_title_loc)
 
     # ux
-    def click_next_button_ux(self):
-        self.find_element(self.next_button_ux_loc, clickable=True).click()
+    def wait_ux_page_load(self, loc):
+        self.find_element(loc)
+
+    def click_next_button_ux(self, next_button_ux_loc):
+        self.find_element(next_button_ux_loc, clickable=True).click()
 
 # Submit
     # old ui
@@ -136,8 +154,8 @@ class PaymentPage(BasePage):
         self.find_element(self.submit_button_loc, clickable=True).click()
 
     # ux
-    def click_submit_button_ux(self):
-        self.find_element(self.submit_button_ux_loc, clickable=True).click()
+    def click_submit_button_ux(self, submit_button_ux_loc):
+        self.find_element(submit_button_ux_loc, clickable=True).click()
 
 # Save as Template
     def click_save_as_template_checkbox(self, value):
@@ -160,17 +178,17 @@ class PaymentPage(BasePage):
         self.find_element(self.approve_payment_button_loc, clickable=True).click()
 
     # ux
-    def click_approve_button_ux(self):
-        self.find_element(self.approve_button_ux_loc, clickable=True).click()
+    def click_approve_button_ux(self, approve_button_ux_loc):
+        self.find_element(approve_button_ux_loc, clickable=True).click()
 
     def click_challenge_button_ux(self):
         self.find_element(self.challenge_button_ux_loc, clickable=True).click()
 
-    def enter_response_ux(self, value):
-        self.find_element(self.response_ux_loc).send_keys(value)
+    def enter_response_ux(self, response_ux_loc, value):
+        self.find_element(response_ux_loc).send_keys(value)
 
-    def get_approve_success_message_ux(self):
-        return self.find_element(self.approve_success_message_ux_loc).text
+    def get_approve_success_message_ux(self, approve_success_message_ux_loc):
+        return self.find_element(approve_success_message_ux_loc).text
 
 # Approve Now
     # old ui
@@ -194,8 +212,8 @@ class PaymentPage(BasePage):
         self.find_element(self.preview_button_edit_page_loc, clickable=True).click()
 
     # ux
-    def click_edit_icon_ux(self):
-        self.find_element(self.edit_icon_ux_loc, clickable=True).click()
+    def click_edit_icon_ux(self, edit_icon_ux_loc):
+        self.find_element(edit_icon_ux_loc, clickable=True).click()
 
 # Login
     def login_cb(self, url, login_id, company_id):
