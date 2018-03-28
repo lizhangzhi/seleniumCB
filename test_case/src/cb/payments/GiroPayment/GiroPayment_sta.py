@@ -1,6 +1,7 @@
-from Util import *
-from test_case.src.cb.payments.GiroPayment.GiroPaymentPage import GiroPaymentPage
 from time import sleep
+from Util import *
+from test_case.src.PageFactory import PageFactory
+
 
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
@@ -13,7 +14,7 @@ __author__ = 'lizhangzhi'
 class GiroPaymentTest(MyUnittest):
 
     def create_LVT(self):
-        giro_payment = GiroPaymentPage(self.driver)
+        giro_payment = PageFactory.get_giro_payment_page_instance(self.driver)
         giro_payment.login_cb(self.url, self.login_id, self.company_id)
         giro_payment.open_menu("Payments", "GIRO Payment")
         giro_payment.select_from_account('LEONA ALBRECHT - 0018001843 - SGD')
@@ -28,7 +29,7 @@ class GiroPaymentTest(MyUnittest):
         self.instruction_id = giro_payment.get_success_message().split()[2]
 
     def reject_LVT(self):
-        giro_payment = GiroPaymentPage(self.driver)
+        giro_payment = PageFactory.get_giro_payment_page_instance(self.driver)
         giro_payment.get_to_view_payment_page(self.instruction_id)
         sleep(5)
         giro_payment.scroll_up_and_down(0, 1000)
@@ -39,7 +40,7 @@ class GiroPaymentTest(MyUnittest):
         self.success_message = giro_payment.get_success_message()
 
     def delete_LVT(self):
-        giro_payment = GiroPaymentPage(self.driver)
+        giro_payment = PageFactory.get_giro_payment_page_instance(self.driver)
         giro_payment.get_to_view_payment_page(self.instruction_id)
         sleep(5)
         giro_payment.scroll_up_and_down(0, 1000)
@@ -50,7 +51,7 @@ class GiroPaymentTest(MyUnittest):
         self.success_message = giro_payment.get_success_message()
 
     def approve_LVT(self):
-        giro_payment = GiroPaymentPage(self.driver)
+        giro_payment = PageFactory.get_giro_payment_page_instance(self.driver)
         giro_payment.get_to_view_payment_page(self.instruction_id)
         sleep(5)
         giro_payment.scroll_up_and_down(0, 1000)
@@ -64,15 +65,18 @@ class GiroPaymentTest(MyUnittest):
         self.reject_LVT()
         function.take_screenshot(self.driver, '7_giro_payment_reject.jpg')
         self.assertIn('has been rejected successfully', self.success_message)
+        PageFactory.clean_page_instance()
 
     def test_2_delete_LVT(self):
         self.create_LVT()
         self.delete_LVT()
         function.take_screenshot(self.driver, '8_giro_payment_delete.jpg')
         self.assertIn('has been deleted successfully', self.success_message)
+        PageFactory.clean_page_instance()
 
     def test_3_approve_LVT(self):
         self.create_LVT()
         self.approve_LVT()
         function.take_screenshot(self.driver, '9_giro_payment_approve.jpg')
         self.assertIn('has been approved successfully', self.success_message)
+        PageFactory.clean_page_instance()
