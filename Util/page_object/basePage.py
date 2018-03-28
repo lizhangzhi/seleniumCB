@@ -17,7 +17,7 @@ class BasePage(object):
 
     def __init__(self, selenium_driver):
         self.driver = selenium_driver
-        self.timeout = 30
+        self.timeout = 60
         self.poll_frequency = 1
 
     def _open(self, url):
@@ -109,6 +109,17 @@ class BasePage(object):
         except Exception:
             print("page {0} can't find locator {1} or element {2}".format(self.driver.current_url, loc, element))
 
+    # 重写鼠标双击方法
+    def double_click(self, loc=''):
+        try:
+            if loc:
+                element = self.find_element(loc)
+            else:
+                print("mouse actions need target element")
+            ActionChains(self.driver).double_click(element).perform()
+        except Exception:
+            print("page {0} can't find locator {1} or element {2}".format(self.driver.current_url, loc, element))
+
     # 通过输入像素来控制页面左右移和上下移
     def scroll_up_and_down(self, up_distance, down_distance):
         self.script("window.scrollBy(%u, %u)" % (up_distance, down_distance))
@@ -120,6 +131,7 @@ class BasePage(object):
         while True:
             try:
                 self.move_mouse_to_element(level1_loc)
+                self.find_element(level1_loc).click()
                 self.find_element(level2_loc).click()
                 break
             except Exception:
