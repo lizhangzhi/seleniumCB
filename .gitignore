@@ -14,8 +14,4 @@ build
 # My configurations:
 *.log
 *.html
-*.name
-*.jpg
-*.iml
-*.xml
 
