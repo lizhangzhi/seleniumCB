@@ -1,3 +1,4 @@
+import logging
 from Util import *
 from .MakeAPaymentPage import MakeAPaymentPage
 from test_case.src.PageFactory import PageFactory
@@ -43,7 +44,9 @@ class MakeAPaymentTest(MyUnittest):
         self.instruction_id = make_a_payment.get_success_message_ux().split()[2]
         make_a_payment.switch_to_frame(out=True)
 
+    @log(logger=logging.getLogger(__name__))
     def test_1_create_vn_tt(self):
+        """测试能通过Make A Payment创建一条VN Telegraphic Transfer"""
         make_a_payment = PageFactory.get_make_a_payment_page_instance(self.driver)
         make_a_payment.login_cb(self.url, 'VNUAT1A02', 'VNUAT1')
         self.create_vn_tt()

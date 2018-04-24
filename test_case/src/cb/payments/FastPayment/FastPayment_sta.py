@@ -1,7 +1,9 @@
+import logging
 import time
 from time import sleep
 from Util import *
 from test_case.src.PageFactory import PageFactory
+from .FastPaymentPage import FastPaymentPage
 
 
 # -*- coding: utf-8 -*-
@@ -28,8 +30,8 @@ class FastPaymentTest(MyUnittest):
         fast_payment.click_preview_button()
         sleep(3)
         fast_payment.scroll_up_and_down(0, 1000)
-        fast_payment.enter_approve_now_response('1')
-        fast_payment.click_approve_payment_button()
+        fast_payment.enter_approve_response(FastPaymentPage.approve_response_loc, '1')
+        fast_payment.click_approve_payment_button(FastPaymentPage.approve_payment_button_loc)
         self.success_message = fast_payment.get_success_message()
 
     def create_with_template_GPP(self):
@@ -60,20 +62,26 @@ class FastPaymentTest(MyUnittest):
         fast_payment.click_submit_button()
         self.success_message = fast_payment.get_success_message()
 
+    @log(logger=logging.getLogger(__name__))
     def test_1_create_approve_now_GPP(self):
+        """测试old ui能创建Fast Payment的同时完成approve"""
         self.create_approve_now_GPP()
         function.take_screenshot(self.driver, '2_fast_payment_approve_now.jpg')
         self.assertIn('has been created successfully with status Approved', self.success_message)
         PageFactory.clean_page_instance()
 
+    @log(logger=logging.getLogger(__name__))
     def test_2_create_with_template_GPP(self):
+        """测试old ui能创建Fast Payment的同时创建template"""
         self.create_with_template_GPP()
         function.take_screenshot(self.driver, '3_fast_payment_create_with_template.jpg')
         self.assertIn('has been created successfully', self.success_message)
         self.assertIn('FAST Payment template', self.success_message)
         PageFactory.clean_page_instance()
 
+    @log(logger=logging.getLogger(__name__))
     def test_3_save_as_draft_GPP(self):
+        """测试old ui能创建Fast Payment保存为draft"""
         self.save_as_draft_GPP()
         function.take_screenshot(self.driver, '6_fast_payment_save_as_draft.jpg')
         self.assertIn('has been created successfully with status Saved.', self.success_message)

@@ -3,6 +3,7 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
+
 # -*- coding: utf-8 -*-
 __author__ = 'lizhangzhi'
 '''
@@ -28,18 +29,21 @@ class BasePage(object):
         self._open(url)
 
     # 重写元素定位方法
-    def find_element(self, loc, clickable=False):
+    def find_element(self, loc, clickable=False, presence=False):
         try:
             if clickable:
-                element = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                element = WebDriverWait(self.driver, self.timeout, self.poll_frequency) \
                     .until(EC.element_to_be_clickable(loc))
+            elif presence:
+                element = WebDriverWait(self.driver, self.timeout, self.poll_frequency) \
+                    .until(EC.presence_of_element_located(loc))
             else:
-                element = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                element = WebDriverWait(self.driver, self.timeout, self.poll_frequency) \
                     .until(EC.visibility_of_element_located(loc))
             if element:
                 return element
             else:
-                elements = WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
+                elements = WebDriverWait(self.driver, self.timeout, self.poll_frequency) \
                     .until(EC.visibility_of_all_elements_located(loc))
                 return elements[0] if elements else False
         except Exception:
@@ -48,8 +52,9 @@ class BasePage(object):
     # 重写一组元素定位方法
     def find_elements(self, loc):
         try:
-            return WebDriverWait(self.driver, self.timeout, self.poll_frequency)\
-                .until(EC.visibility_of_element_located(loc))
+            elements = WebDriverWait(self.driver, self.timeout, self.poll_frequency) \
+                .until(EC.visibility_of_all_elements_located(loc))
+            return elements
         except Exception as e:
             print("page {0} can't find elements for this locator {1}".format(self.driver.current_url, loc))
 
@@ -79,7 +84,7 @@ class BasePage(object):
                 # return self.driver.switch_to_frame(self.find_element(loc))
             except Exception:
                 print("page {0} can't switch to this frame page {1}".format(self.driver.current_url, loc))
-    
+
     # 重写跳转到window的方法
     def switch_window(self, loc):
         try:
@@ -99,7 +104,7 @@ class BasePage(object):
             print("page {0} can't find locator {1}".format(self.driver.current_url, loc))
 
     # 重写鼠标悬停方法
-    def move_mouse_to_element(self, loc=''):
+    def move_mouse_to_element(self, loc=()):
         try:
             if loc:
                 element = self.find_element(loc)
@@ -126,13 +131,32 @@ class BasePage(object):
 
     # 封装打开菜单的方法
     def open_menu(self, level1_menu, level2_menu):
-        level1_loc = (By.LINK_TEXT, level1_menu)
-        level2_loc = (By.LINK_TEXT, level2_menu)
-        while True:
-            try:
-                self.move_mouse_to_element(level1_loc)
-                self.find_element(level1_loc).click()
-                self.find_element(level2_loc).click()
-                break
-            except Exception:
-                pass
+        # File Service菜单下的Upload File部分使用else里的方法无法实现，解决不了，改成通过js打开菜单，直接通过id定位点击
+        file_service_menu_dic = {"Manage Files": "level3nav_a_3_0_0",
+                                 "Upload File": "level3nav_a_3_0_1",
+                                 "Download File": "level3nav_a_3_0_2",
+                                 "Manage Download Files": "level3nav_a_3_0_3",
+                                 "Reports": "level3nav_a_3_0_4",
+                                 }
+
+        if level1_menu == "File Services":
+            level2_loc = (By.ID, file_service_menu_dic[level2_menu])
+            self.script("document.getElementById('filesrvc').parentElement.children[1]." +
+                        "style='opacity:1; margin-left: 0; width:320px;'")
+            self.find_element(level2_loc).click()
+        elif level1_menu == "Payments":
+            level2_loc = (By.LINK_TEXT, level2_menu)
+            self.script("document.getElementById('pmt').parentElement.children[1]." +
+                        "style='opacity:1; margin-left: 0; width:320px;'")
+            self.find_element(level2_loc).click()
+        else:
+            level1_loc = (By.LINK_TEXT, level1_menu)
+            level2_loc = (By.LINK_TEXT, level2_menu)
+            while True:
+                try:
+                    self.move_mouse_to_element(level1_loc)
+                    self.find_element(level1_loc, clickable=True).click()
+                    self.find_element(level2_loc).click()
+                    break
+                except Exception:
+                    pass

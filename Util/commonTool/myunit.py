@@ -19,6 +19,8 @@ class MyUnittest(unittest.TestCase):
         cls.url = site['url']
         cls.login_id = site['login_id']
         cls.company_id = site['company_id']
+        cls.sam_login_id = site['sam_login_id']
+        cls.sam_login_approver = site['sam_login_approver']
 
     def tearDown(self):
         self.driver.quit()

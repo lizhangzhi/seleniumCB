@@ -18,6 +18,7 @@ class PaymentPage(BasePage):
     beneficiary_loc = (By.ID, 'toParty')
     payment_details_loc = (By.ID, 'details')
     success_message_loc = (By.ID, 'my_list')
+    list_per_transaction_tab_loc = (By.XPATH, "//a[@tabid='pendingTab']")
 
 # UX
     frame_loc = (By.ID, 'iframe1')
@@ -26,8 +27,6 @@ class PaymentPage(BasePage):
 # Preview
     # old ui
     preview_button_loc = (By.ID, 'previewButton_Link')
-    # page_title_loc = (By.XPATH, "//span[@slid='pageHeadlineDisplay']")
-    page_title_loc = (By.CLASS_NAME, "headertable")
     # ux
 
 # Submit
@@ -57,7 +56,7 @@ class PaymentPage(BasePage):
 # Approve Now
     # old ui
     approve_now_checkbox_loc = (By.ID, 'approvalChoice_B')
-    approve_now_response_loc = (By.ID, 'signature')
+    approve_response_loc = (By.ID, 'signature')
 
 # Edit
     # old ui
@@ -73,6 +72,10 @@ class PaymentPage(BasePage):
     filter_button_loc = (By.ID, 'pendingA')
     reference_loc = (By.ID, 'filterReference')
     go_button_loc = (By.ID, 'ButtonCtrl_Link')
+
+# Offline Approval List
+    offline_approval_go_button_loc = (By.ID, 'submitpending_Link')
+    approver_dropdown_loc = (By.ID, "offapproverId")
 
 # Old UI
     def select_from_account(self, account_text):
@@ -101,6 +104,11 @@ class PaymentPage(BasePage):
         self.find_element(account_ux_loc, clickable=True).click()
         self.find_element(account_ux_loc, clickable=True).send_keys(account_number)
         self.find_element(account_value_ux_loc, clickable=True).click()
+
+    def select_country_ux(self, country_ux_loc, country_value_ux_loc, value):
+        self.find_element(country_ux_loc, clickable=True).click()
+        self.find_element(country_ux_loc, clickable=True).send_keys(value)
+        self.find_element(country_value_ux_loc, clickable=True).click()
 
     def select_payment_currency_ux(self, currency_ux_loc, currency_textbox_ux_loc, currency_value_ux_loc, currency):
         self.find_element(currency_ux_loc, clickable=True).click()
@@ -138,8 +146,8 @@ class PaymentPage(BasePage):
     def click_preview_button(self):
         self.find_element(self.preview_button_loc, clickable=True).click()
 
-    def wait_page_load(self):
-        self.find_element(self.page_title_loc)
+    def wait_page_load(self, loc):
+        self.find_element(loc)
 
     # ux
     def wait_ux_page_load(self, loc):
@@ -174,8 +182,11 @@ class PaymentPage(BasePage):
 
 # Approve
     # old ui
-    def click_approve_payment_button(self):
-        self.find_element(self.approve_payment_button_loc, clickable=True).click()
+    def click_approve_payment_button(self, approve_payment_button_loc):
+        self.find_element(approve_payment_button_loc, clickable=True).click()
+
+    def click_approve_button(self, approve_button_loc):
+        self.find_element(approve_button_loc, clickable=True).click()
 
     # ux
     def click_approve_button_ux(self, approve_button_ux_loc):
@@ -195,8 +206,8 @@ class PaymentPage(BasePage):
     def click_approve_now_checkbox(self):
         self.find_element(self.approve_now_checkbox_loc, clickable=True).click()
 
-    def enter_approve_now_response(self, value):
-        self.find_element(self.approve_now_response_loc).send_keys(value)
+    def enter_approve_response(self, approve_response_loc, value):
+        self.find_element(approve_response_loc).send_keys(value)
 
 # Copy
     # old ui
@@ -224,21 +235,32 @@ class PaymentPage(BasePage):
     def click_filter_button(self):
         self.find_element(self.filter_button_loc, clickable=True).click()
 
-    def enter_reference(self, value):
-        self.find_element(self.reference_loc).send_keys(value)
+    def enter_reference(self, reference_loc, value):
+        self.find_element(reference_loc).send_keys(value)
 
-    def click_go_button(self):
-        self.find_element(self.go_button_loc, clickable=True).click()
+    def click_go_button(self, go_button_loc):
+        self.find_element(go_button_loc, clickable=True).click()
 
     def click_reference_link(self, reference):
         reference_loc = (By.LINK_TEXT, reference)
         self.find_element(reference_loc, clickable=True).click()
+
+    def enter_file_name(self, file_name_loc, filename):
+        self.find_element(file_name_loc).send_keys(filename)
+
+    def click_file_name_link(self, filename):
+        """点击搜索出来的file name的链接"""
+        self.find_element((By.LINK_TEXT, filename)).click()
 
 # To View Page
     def get_to_view_payment_page(self, instruction_id):
         payment_page = PaymentPage(self.driver)
         payment_page.open_menu("Payments", "Transfer Center")
         payment_page.click_filter_button()
-        payment_page.enter_reference(instruction_id)
-        payment_page.click_go_button()
+        payment_page.enter_reference(PaymentPage.reference_loc, instruction_id)
+        payment_page.click_go_button(self.go_button_loc)
         payment_page.click_reference_link(instruction_id)
+
+# choose a tab in list page
+    def click_tab(self, tab_loc):
+        self.find_element(tab_loc).click()

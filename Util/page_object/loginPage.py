@@ -15,6 +15,7 @@ class LoginPage(BasePage):
     companyId_loc = (By.NAME, "ssoCompanyID")
     cbBtn_loc = (By.NAME, "submit_sbuserLogin")
     nextBtn_loc = (By.ID, "previewButton_Link")
+    samBtn_loc = (By.NAME, "submit_csrLogin")
 
     dashboard_welcome_loc = (By.XPATH, "//*[@class='container-fluid']/div/div/div/span[1]")
 
@@ -33,10 +34,19 @@ class LoginPage(BasePage):
     def wait_dashboard_load(self):
         self.find_element(self.dashboard_welcome_loc)
 
-    def logincb(self, url, loginid, companyid):
+    def click_sambutton(self):
+        self.find_element(self.samBtn_loc).click()
+
+    def logincb(self, url, loginid, companyid, login_sam=False):
+        """登陆函数
+        login_sam: 默认为False代表默认登陆CB端，如果设为True则登陆SAM端
+        """
         self.open(url)
         self.type_login_id(loginid)
         self.type_company_id(companyid)
-        self.click_cb_button()
-        self.click_next_button()
-        self.wait_dashboard_load()
+        if login_sam:
+            self.click_sambutton()
+        else:
+            self.click_cb_button()
+            self.click_next_button()
+            self.wait_dashboard_load()

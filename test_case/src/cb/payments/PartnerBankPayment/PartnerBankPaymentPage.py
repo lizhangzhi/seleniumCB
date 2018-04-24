@@ -17,7 +17,7 @@ class PartnerBankPaymentPage(PaymentPage):
     # Amount的定位
     amount_ux_loc = (By.XPATH, "//dbs-input[@formcontrolname='payeeAmount']/span/div/input")
     # Country的定位
-    country_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname= 'countrySelected']")
+    country_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname= 'countrySelected']/div/input")
     country_value_ux_loc = (By.XPATH, "//auto-complete[@formcontrolname= 'countrySelected']/div/div[2]/div[1]/span")
     # Beneficiary 的定位（选择existing beneficiary的第一个bene)
     beneficiary_ux_loc = (By.XPATH, "//div[@class='payee-list']/filter-item-component[1]/section/div/div/div/button")
@@ -32,20 +32,16 @@ class PartnerBankPaymentPage(PaymentPage):
     hash_value_loc = (By.XPATH, "//*[@translate='bulk.labelHashValue4PtnBnk']")
     # next button的定位
     next_button_ux_loc = (By.XPATH, "//button[@translate = 'labelPreviewTransfer']")
-    # next button的定位
+    # submit button的定位
     submit_button_ux_loc = (By.XPATH, "//button[@translate = 'labelSubmit']")
     # edit button的定位
-    edit_icon_ux_loc = (By.XPATH, "//label[@translate='labelEdit']")
+    edit_icon_ux_loc = (By.XPATH, "//span[@class='icon-edit']")
     # approve button的定位
     approve_button_ux_loc = (By.XPATH, "//div[@class='form-group no-print']/div/button[5]")
     # response 输入框定位
     response_ux_loc = (By.XPATH, "//dbs-input[@name='responseCode']/span/div/input")
     # approve message的定位
     approve_success_message_ux_loc = (By.XPATH, "//md-dialog-container[@class='mat-dialog-container']")
-
-    def select_country_ux(self):
-        self.find_element(self.country_ux_loc, clickable=True).click()
-        self.find_element(self.country_value_ux_loc, clickable=True).click()
 
     def select_type_ux(self):
         self.find_element(self.type_ux_loc, clickable=True).click()
