@@ -39,7 +39,7 @@ class PartnerBankPaymentPage(PaymentPage):
     # approve button的定位
     approve_button_ux_loc = (By.XPATH, "//div[@class='form-group no-print']/div/button[5]")
     # response 输入框定位
-    response_ux_loc = (By.XPATH, "//dbs-input[@name='responseCode']/span/div/input")
+    response_ux_loc = (By.XPATH, "//input[@name='responseCode']")
     # approve message的定位
     approve_success_message_ux_loc = (By.XPATH, "//md-dialog-container[@class='mat-dialog-container']")
 
@@ -52,6 +52,3 @@ class PartnerBankPaymentPage(PaymentPage):
 
     def get_payee_list_ux(self):
         return self.find_element(self.item_ux_loc)
-
-    def wait_view_page_load(self):
-        self.find_element(self.hash_value_loc)

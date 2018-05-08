@@ -24,12 +24,6 @@ class AccountTransferPage(PaymentPage):
         """选择outward remittance"""
         self.select_dropdown(self.outward_remittance_loc).select_by_index(value)
 
-    def select_purpose_code(self, purpose_code_loc, purpose_code_filter_loc, value, purpose_code_filter_value_loc):
-        """选择purpose code"""
-        self.find_element(purpose_code_loc).click()
-        self.find_element(purpose_code_filter_loc).send_keys(value)
-        self.find_element(purpose_code_filter_value_loc).click()
-
     def payment_date_display(self):
         """判断payment date原本的输入框是否是可见的"""
         return self.find_element(self.payment_date_loc, presence=True).is_displayed()

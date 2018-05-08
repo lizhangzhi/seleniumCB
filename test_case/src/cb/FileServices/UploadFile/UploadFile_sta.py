@@ -60,7 +60,7 @@ class UploadFileTest(MyUnittest):
             upload_file_page.wait_page_load(MyApprovalsPage.page_load_loc)
             upload_file_page.scroll_up_and_down(0, 1000)
             upload_file_page.click_approve_button(MyApprovalsPage.approve_file_button_loc)
-            upload_file_page.enter_approve_response(UploadFilePage.approve_response_loc, "approve")
+            upload_file_page.enter_approve_response("approve")
             upload_file_page.click_approve_button(UploadFilePage.submit_button_loc)
             self.success_message = upload_file_page.get_success_message()
             take_screenshot(self.driver, '26_file_service_approve_file.jpg')

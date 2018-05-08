@@ -149,6 +149,11 @@ class BasePage(object):
             self.script("document.getElementById('pmt').parentElement.children[1]." +
                         "style='opacity:1; margin-left: 0; width:320px;'")
             self.find_element(level2_loc).click()
+        elif level1_menu == "Preferences":
+            level2_loc = (By.LINK_TEXT, level2_menu)
+            self.script("document.getElementById('preferences').parentElement.children[1]." +
+                        "style='opacity:1; margin-left: 0; width:320px;'")
+            self.find_element(level2_loc).click()
         else:
             level1_loc = (By.LINK_TEXT, level1_menu)
             level2_loc = (By.LINK_TEXT, level2_menu)

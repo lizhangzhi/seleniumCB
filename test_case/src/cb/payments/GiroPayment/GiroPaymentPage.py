@@ -25,9 +25,8 @@ class GiroPaymentPage(PaymentPage):
     approval_list_go_button_loc = (By.ID, "submitgrouping_Link")
     # approve group按钮的定位
     approve_group_button_loc = (By.ID, "approveGrpButton_Link")
-
-    def enter_amount(self, value):
-        self.find_element(self.amount_loc).send_keys(value)
+    # approve payment按钮的定位
+    approve_payment_button_loc = (By.ID, 'approveButton_Link')
 
     def select_transaction_in_center(self):
         """在center页面勾选所查到的transaction前的checkbox"""

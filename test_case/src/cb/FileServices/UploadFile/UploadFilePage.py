@@ -24,7 +24,8 @@ class UploadFilePage(PaymentPage):
     upload_file_button_loc = (By.ID, "text")
     # Manage File页面refresh按钮的定位
     refresh_button_loc = (By.ID, "refresh")
-    # My
+    # Approve File页面submit按钮的定位
+    submit_button_loc = (By.ID, 'submitButton_Link')
 
     def select_type(self, file_type):
         """选择Type下拉框的值"""

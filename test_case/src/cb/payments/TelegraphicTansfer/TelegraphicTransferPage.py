@@ -21,9 +21,8 @@ class TelegraphicTransferPage(PaymentPage):
     my_approval_approve_button_loc = (By.ID, "approveButtonpending_Link")
     # Approve Payment 按钮的定位
     approve_payment_button_loc = (By.ID, 'submitButton_Link')
-    # my approval list页面search section里reference的定位
-    reference_loc = (By.XPATH, "//div[@id='tab-2fileApprovalCentre_Tabs']"
-                               "/form/div[2]/div[2]/div/div/div[2]/div/div[6]/input")
+    # edit页面preview按钮的定位
+    preview_button_edit_page_loc = (By.XPATH, "//*[@class='ctrlBtnGrp']/a[3]")
 
     def enter_instruction(self, value):
         self.find_element(self.instruction_to_DBS_Bank_loc).send_keys(value)

@@ -12,6 +12,8 @@ class MyApprovalsPage(BasePage):
     # My Approval List-By Transaction页面search section里reference的定位
     reference_loc = (By.XPATH, "//div[@id='tab-2fileApprovalCentre_Tabs']"
                                "/form/div[2]/div[2]/div/div/div[2]/div/div[6]/input")
+    # My Approval List 页面by transaction tab的定位
+    list_per_transaction_tab_loc = (By.XPATH, "//a[@tabid='pendingTab']")
     # My Approval List 页面by file tab的定位
     list_per_file_tab_loc = (By.XPATH, "//a[@tabid='processedTab']")
     # My Approval List-By File页面search section里file name的定位

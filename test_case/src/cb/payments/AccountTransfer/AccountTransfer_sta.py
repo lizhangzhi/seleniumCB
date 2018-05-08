@@ -38,10 +38,13 @@ class AccountTransferTest(MyUnittest):
     def test_1_CBCFX_create_ACT(self):
         """通过判断payment date原本的输入框是不可见的，验证CBCFX是否生效"""
         # self.create_account_transfer()
-        account_transfer = PageFactory.get_account_transfer_page_instance(self.driver)
-        account_transfer.login_cb(self.url, "TWP2A01M01", "TWP2A01")
-        account_transfer.open_menu("Payments", "Account Transfer")
-        account_transfer.select_from_account("RISTORISTO - 036008014561 - USD")
-        function.take_screenshot(self.driver, '19_CBCFX_account_transfer.jpg')
-        # self.assertIn('has been created successfully', self.success_message)
-        self.assertFalse(account_transfer.payment_date_display())
+        try:
+            account_transfer = PageFactory.get_account_transfer_page_instance(self.driver)
+            account_transfer.login_cb(self.url, "TWP2A01M01", "TWP2A01")
+            account_transfer.open_menu("Payments", "Account Transfer")
+            account_transfer.select_from_account(account_number="RISTORISTO - 036008014561 - USD")
+            function.take_screenshot(self.driver, '19_CBCFX_account_transfer.jpg')
+            # self.assertIn('has been created successfully', self.success_message)
+            self.assertFalse(account_transfer.payment_date_display())
+        finally:
+            PageFactory.clean_page_instance()
